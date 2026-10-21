@@ -193,10 +193,10 @@ Generator dừng và in lỗi nếu:
 - trùng cặp (từ khoá × kiểu khớp);
 - **cổng CAM** — `thong_diep` chứa từ cấm, bản **tiếng Anh** (`best` · `#1` · `top-rated` · `leading` · `guaranteed` · `permanent` · `painless` · `no scar` · `risk-free` · `cheapest` · `100% success`…) **và tiếng Việt** (cho tầng B);
 - **cổng CLAIM** — còn `lifetime warranty` · `board certified` · `VSAPS`/`ASAPS`/`ISAPS`/`AAFPRS` · `cheaper than <quốc gia>` trong `thong_diep` · `nhom_qc` · `hanh_trinh` · `landing` · tên chiến dịch;
-- 🆕 **cổng GEO** — dòng từ khoá thiếu `market` hoặc `geo_mode`; `geo_mode` không hợp lệ; `market=VN-EXPAT` mà `geo_mode ≠ Presence`; hoặc từ khoá có địa danh Việt Nam mà thiếu một trong hai trường;
+- 🆕 **cổng GEO-TARGET** — dòng từ khoá thiếu `market` hoặc `geo_mode`; `geo_mode` không hợp lệ; `market=VN-EXPAT` mà `geo_mode ≠ Presence`; hoặc từ khoá có địa danh Việt Nam mà thiếu một trong hai trường;
 - 🆕 **cổng REGULATED** — dòng từ khoá có `market` thuộc nhóm rủi ro cao (**AU · UK · NZ · US · CA · IE · EU · GCC**) mà `ghi_chu` **chưa khai cách xử lý creative**.
 
-### Vì sao có cổng GEO
+### Vì sao có cổng GEO-TARGET
 
 Cùng một chuỗi ký tự là **hai người hoàn toàn khác nhau**:
 

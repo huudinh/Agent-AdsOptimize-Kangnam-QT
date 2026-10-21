@@ -22,7 +22,7 @@ Năm sheet xuất ra:
 
 BA CỔNG CHẶN BUILD (xem validate()):
     - cổng CLAIM   : từ cấm tiếng Anh + claim đã gỡ (lifetime warranty, board certified...)
-    - cổng GEO     : từ khoá có tên thành phố VN mà thiếu market / geo_mode
+    - cổng GEO-TARGET     : từ khoá có tên thành phố VN mà thiếu market / geo_mode
     - cổng REGULATED: market rủi ro cao (AU/UK/EU/GCC/US) mà ghi_chu chưa khai cách
                       xử lý creative rủi ro (before-after / testimonial kết quả)
 """
@@ -135,7 +135,7 @@ def sheet_tong_quan(wb, z):
                      + "  |  Rủi ro quảng cáo: " + str(zone.get("rui_ro_qc", "[CHUA KHAI]")))
     r = _note(ws, r, "Phương pháp: THỊ TRƯỜNG x DỊCH VỤ -> chân dung KH -> hành trình S1-S7 "
                      "-> cụm truy vấn ưu tiên -> landing L1-L6 -> từ khoá (có market + geo_mode).")
-    r = _note(ws, r, "Cổng GEO: mọi dòng từ khoá phải khai market (người gõ ĐANG Ở ĐÂU, không phải "
+    r = _note(ws, r, "Cổng GEO-TARGET: mọi dòng từ khoá phải khai market (người gõ ĐANG Ở ĐÂU, không phải "
                      "thành phố trong từ khoá) và geo_mode. Tầng D (expat tại VN) bắt buộc Presence.")
     r = _note(ws, r, "Ô nền vàng chữ xanh là giả định đầu vào, thay bằng số thực của Kangnam. "
                      "Ô chữ xanh lá là công thức, không sửa tay.")
@@ -579,7 +579,7 @@ def soat_claim(chuoi, nhan, errs):
         if w in low:
             errs.append(u"%s: còn claim đã gỡ '%s' - %s" % (nhan, w, vi_sao))
 
-# ------------------------------------------------------------------ cổng GEO
+# ------------------------------------------------------------------ cổng GEO-TARGET
 # Cùng một từ khoá là HAI người khác nhau:
 #   "plastic surgery hanoi" gõ từ Sydney  = khách tầng C sắp bay sang
 #   "plastic surgery hanoi" gõ từ Hà Nội  = expat tầng D đang sống ở đó
@@ -653,7 +653,7 @@ def validate(z, path):
             errs.append("trùng từ khoá x kiểu khớp: %s (%s)" % key)
         seen.add(key)
 
-        # ---- cổng GEO: mọi dòng phải khai market + geo_mode ----
+        # ---- cổng GEO-TARGET: mọi dòng phải khai market + geo_mode ----
         mk = (kw.get("market") or "").strip()
         gm = (kw.get("geo_mode") or "").strip()
         if not mk:

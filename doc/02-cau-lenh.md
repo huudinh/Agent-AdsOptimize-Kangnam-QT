@@ -5,13 +5,14 @@
 # 1. Công thức ra lệnh
 
 ```
-MODE [1-4] — [việc cần làm]
-Thị trường: [bắt buộc]
+MODE [1-5] — [việc cần làm]
+Thị trường: [bắt buộc với MODE 1-4]
 Dịch vụ:    [bắt buộc]
 [+ ngân sách / từ khoá / số liệu tuỳ mode]
+[MODE 5: thay "Thị trường" bằng "Cụm: Qxx"]
 ```
 
-**Trường duy nhất không bao giờ được bỏ: THỊ TRƯỜNG.** Không biết người xem ở đâu thì không biết luật nào áp, viết ngôn ngữ nào, gắn kênh nào. Agent sẽ hỏi lại, và đó là đúng.
+**Trường duy nhất không bao giờ được bỏ (MODE 1–4): THỊ TRƯỜNG.** MODE 5 là ngoại lệ — AI không có geo-targeting, nên nó cần **cụm Q01–Q15**. Không biết người xem ở đâu thì không biết luật nào áp, viết ngôn ngữ nào, gắn kênh nào. Agent sẽ hỏi lại, và đó là đúng.
 
 Nói bằng lời thường cũng được — Agent tự suy mode rồi báo lại. Nhưng nó vẫn sẽ hỏi thị trường.
 
@@ -34,7 +35,7 @@ Lưu ý: tầng này tìm bằng TIẾNG VIỆT từ IP nước ngoài. Từ kho
 geo-target là Mỹ. Lịch chạy theo mùa bay (trước Tết 8–10 tuần, hè).
 ```
 
-## 2.3 Tầng expat — cẩn thận cổng GEO
+## 2.3 Tầng expat — cẩn thận cổng GEO-TARGET
 ```
 MODE 1 — bộ từ khoá cho tầng D (expat đang sống tại Hà Nội và TP.HCM),
 nhóm dịch vụ da liễu + clinic, ngân sách 60 triệu/tháng.
@@ -198,7 +199,7 @@ Ra 4 quyết định theo thứ tự ④→①→②③.
 MODE 4 — chiến dịch AU có 80 lead trong 6 tuần nhưng chưa ai đến khám.
 CPL trông rẻ. Chẩn đoán giúp tôi.
 ```
-*(Agent phải kiểm **tiêu chí ④ travel intent** và **cổng GEO** trước, không nhảy vào landing. Và phải nhắc cửa sổ 6 tuần là **chưa đủ** để kết luận.)*
+*(Agent phải kiểm **tiêu chí ④ travel intent** và **cổng GEO-TARGET** trước, không nhảy vào landing. Và phải nhắc cửa sổ 6 tuần là **chưa đủ** để kết luận.)*
 
 ## 5.3 Lead không bắt máy
 ```
@@ -218,6 +219,38 @@ Có nên cắt không?
 MODE 4 — mẫu A ở market AU đang có chi phí/khách đến khám tốt nhất.
 Nhân bản sang market nào được, sang market nào KHÔNG được, và vì sao?
 ```
+
+---
+
+# 5b. MODE 5 — GEO-ANSWER
+
+## 5b.1 Làm một cụm
+```
+MODE 5 — GEO-ANSWER cho cụm Q13 (Medical tourism logistics).
+Rà rào pháp lý trước khi viết.
+```
+
+## 5b.2 Kế hoạch Sóng 1 — bốn cụm Tầng A
+```
+MODE 5 — Sóng 1, 90 ngày. Làm kế hoạch cho 4 cụm Tầng A (Q10 · Q12 · Q11 · Q13).
+Mỗi cụm: số truy vấn CORE · trang đích · dạng nội dung · rào pháp lý · dữ liệu còn thiếu.
+Nói rõ cụm nào BỊ CHẶN và ai phải cấp dữ liệu.
+```
+
+## 5b.3 Đo Share of Voice
+```
+MODE 5 — đo SoV tháng này. Cho tôi 20 prompt + khuôn bảng ghi kết quả
+(ChatGPT / Gemini / AI Overview + cột đối thủ được AI nhắc).
+```
+
+## 5b.4 Rà bài EN đã có
+```
+Rà bài EN này theo bộ truy vấn GEO: nó trả lời truy vấn nào · H2 có dùng đúng
+câu khách gõ không · câu trả lời có trong 2–3 câu đầu không · còn rào R1/R2/R3/R7 nào
+· có dùng AIDA thay vì PAS không.
+```
+
+Chi tiết: [`prompts/prompt-geo-answer.md`](../prompts/prompt-geo-answer.md)
 
 ---
 
@@ -265,3 +298,7 @@ Tôi nên điền dữ liệu gì trước để gói này chạy được tốt
 | Kết luận hiệu quả sau 3 tuần | Nói rõ chưa kết luận được, chỉ đọc chỉ số sớm |
 | Chẩn đoán tình trạng mũi qua ảnh tôi gửi | Từ chối. Pre-consultation là việc của bác sĩ |
 | Sửa generator để lách cổng | Từ chối. Sửa JSON, không sửa script |
+| Viết nội dung GEO cho Q08 Dental | Dừng. Phải **chốt pháp nhân RHM** trước (rào R3) |
+| Viết nội dung GEO cho Q09 BBL | Dừng. Kỹ thuật phải **thuộc DMKT** (R2), và nội dung phải **nói thật rủi ro thuyên tắc mỡ** |
+| Chấm cổng WIN cho nội dung GEO | Từ chối. Cổng WIN và `geo_mode` **không áp cho MODE 5** |
+| Bắt đầu MODE 5 từ trang dịch vụ | Cảnh báo đi sai thứ tự — **4 cụm Tầng A trước** |

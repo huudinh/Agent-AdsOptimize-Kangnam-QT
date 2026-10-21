@@ -177,5 +177,5 @@ Xếp theo tỷ lệ *(giá trị / cạnh tranh)*, cao nhất trước:
 
 MODE 4 (OPTIMIZE) chẩn đoán ra **"đổi từ khoá"** → quay về đây. Ba triệu chứng dẫn về cổng này:
 - CTR thấp + CPC cao + cạnh tranh cao → thu hẹp, tìm ngách §8.
-- **Lead nhiều, không ai đến khám** → kiểm tiêu chí ④ (travel intent) và cổng GEO §4. Gần như luôn là một trong hai.
+- **Lead nhiều, không ai đến khám** → kiểm tiêu chí ④ (travel intent) và cổng GEO-TARGET §4. Gần như luôn là một trong hai.
 - Lead toàn hỏi *"các bạn ở đâu"* → sai `geo_mode`.

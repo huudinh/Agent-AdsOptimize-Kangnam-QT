@@ -18,6 +18,8 @@ Nội dung của gói này chịu **hai hệ luật cùng lúc**:
 
 ⛔ **Agent không đưa ra kết luận pháp lý.** Agent nêu tên cơ quan phải tra, gắn cờ rủi ro, đề xuất biến thể hạ rủi ro. Dòng kết luận luôn là: *"cần Pháp chế xác nhận cho thị trường [X] trước khi bật."*
 
+> ⚠️ **File này áp cho CẢ hai kênh:** quảng cáo trả tiền **và** nội dung GEO (câu trả lời AI). Nhầm lẫn phổ biến nhất là tưởng *"nội dung tiếng Anh thì không cần GXNNDQC"* — **sai**: nội dung EN vẫn chịu luật quảng cáo & KCB Việt Nam (rào **R9**). Bảng rào R0–R9 đầy đủ ở [`kn-truy-van-geo-qt.md`](kn-truy-van-geo-qt.md) §7.
+
 ---
 
 ## §1. BẢNG TỪ CẤM → TỪ ĐÚNG (tiếng Anh)
@@ -103,6 +105,38 @@ Gói nội địa chỉ cần checkbox đồng ý xử lý dữ liệu cá nhân
 
 ---
 
+## §4b. BỐN RÀO CỨNG TỪ BỘ TRUY VẤN GEO — bổ sung 2026-10-21
+
+Bốn rào dưới đây đến từ `HCI-Knowledge/GEOQUOCTE.xlsx` (bảng rào R0–R9). Chúng **không có trong v1.0 của file này**, và đó là một lỗ thật — cả bốn đều là **rào cứng**, áp cho **cả nội dung GEO và quảng cáo trả tiền**.
+
+Bảng R0–R9 đầy đủ: [`kn-truy-van-geo-qt.md`](kn-truy-van-geo-qt.md) §7.
+
+| Mã | Rào | ⛔ Không được | ✅ Thay bằng | Người duyệt |
+|---|---|---|---|---|
+| **R2** | **Danh mục kỹ thuật (DMKT)** | Quảng cáo kỹ thuật **ngoài danh mục đã phê duyệt** của cơ sở — cụ thể **deep plane · BBL · abs etching** | Chỉ nêu kỹ thuật **thuộc DMKT đã phê duyệt** | Pháp chế |
+| **R3** | **Đúng pháp nhân** — ĐIỂM NÓNG | Site EN **gộp nhiều cơ sở/pháp nhân**; dùng tên "Kangnam" cho dịch vụ mà cơ sở đó **không có phạm vi** | Site EN trỏ **đúng bệnh viện có giấy phép + phạm vi**; NAP từng cơ sở | Pháp chế |
+| **R7** | **Túi ngực · thiết bị · filler** | Nêu hãng **không dùng thật**; máy/filler **không rõ số lưu hành** | Chỉ hãng **thực dùng, có số lưu hành** + chứng nhận; khách được xem thẻ | BS + Pháp chế |
+| **R8** | **KCB cho người nước ngoài** — **NÓNG NHẤT** | Tiếp nhận khách nước ngoài khi **cơ sở/bác sĩ chưa đủ điều kiện**, hoặc **không có phiên dịch chuyên môn** | Đủ điều kiện pháp lý + phiên dịch + **hồ sơ song ngữ** + kênh theo dõi từ xa | Pháp chế + Điều phối QT |
+
+### 🔴 R8 là rào quan trọng nhất mà gói này từng thiếu
+
+R2 · R3 · R7 nói về **câu chữ**. **R8 nói về việc có được tiếp nhận khách hay không** — nó không phải rào nội dung, nó là **điều kiện hoạt động**.
+
+→ Một chiến dịch chạy tốt, landing chấm 90 điểm, mẫu quảng cáo 14/14 — nhưng cơ sở **chưa đủ điều kiện R8** thì **lead đổ về là rủi ro, không phải thành tích**.
+→ R8 áp cho **toàn bộ site EN**, không riêng một cụm nào.
+→ **Luật:** trước khi bật bất kỳ chiến dịch quốc tế nào, Agent phải nhắc người dùng xác nhận R8 — và ghi `[PENDING: R8 — đủ điều kiện KCB cho người nước ngoài · Pháp chế + Điều phối QT]` vào danh sách cuối output.
+
+### Hai dịch vụ phải chốt trước khi làm bất kỳ nội dung nào
+
+| Dịch vụ | Phải chốt gì | Vì sao |
+|---|---|---|
+| **Nha khoa** *(Q08 — dental tourism)* | **Pháp nhân RHM**: Kangnam Dental hay Nha Khoa Paris | R3. Dental tourism có nhu cầu lớn nhưng sai pháp nhân là sai phạm vi giấy phép |
+| **BBL** *(Q09 — Brazilian butt lift)* | ① kỹ thuật **có trong DMKT** của cơ sở không · ② nội dung **nói thật rủi ro thuyên tắc mỡ** | R2. Đây là thủ thuật **rủi ro cao nhất ngành**. Chỉ định phải chặt |
+
+⛔ Chưa chốt → **không viết nội dung, không chạy từ khoá** cho hai nhóm này.
+
+---
+
 ## §5. KHÔNG ĐƯỢC LÀM
 
 - **Không chẩn đoán** qua ảnh/mô tả, **không kê đơn**, **không báo giá ca cụ thể** — chỉ tư vấn định hướng rồi mời thăm khám. Với gói QT, bước *pre-consultation dựa trên ảnh* trên site **là của bác sĩ**, không phải của Agent: Agent không được viết nội dung mô phỏng một đánh giá y khoa.
@@ -140,6 +174,10 @@ Mọi mẫu quảng cáo · landing · bảng giá · nội dung có phát ngôn
 | 9 | Hỗ trợ visa / thư mời — có hay không | `[CHỜ CẬP NHẬT]` |
 | 10 | Phương thức thanh toán quốc tế + mức đặt cọc | `[CHỜ CẬP NHẬT]` |
 | 11 | **Gỡ 3 lỗi trên trang tham chiếu**: tên *"Dr. Granzow"* · *"Trusted by 0+ clients"* · *"results are permanent"* | `[CHỜ CẬP NHẬT]` |
+| 12 | 🔴 **R8 — cơ sở + bác sĩ đủ điều kiện KCB cho người nước ngoài**, có phiên dịch chuyên môn và hồ sơ song ngữ | `[CHỜ CẬP NHẬT]` |
+| 13 | **R2 — danh mục kỹ thuật (DMKT)** đã phê duyệt của từng cơ sở: deep plane · BBL · abs etching có trong danh mục không | `[CHỜ CẬP NHẬT]` |
+| 14 | **R3 — pháp nhân cho site EN**, và riêng **nha khoa: Kangnam Dental hay Nha Khoa Paris** | `[CHỜ CẬP NHẬT]` |
+| 15 | **R7 — số lưu hành** của túi ngực · thiết bị · filler thực dùng | `[CHỜ CẬP NHẬT]` |
 
 Dòng 11 là lỗi đang hiển thị trên bản live — xem `kn-ho-so-thuong-hieu-qt.md` §4.4.
 
@@ -149,7 +187,7 @@ Dòng 11 là lỗi đang hiển thị trên bản live — xem `kn-ho-so-thuong-
 
 `tools/build_keyword_workbook.py` **chặn build** nếu:
 - `thong_diep` hoặc `tu_khoa` chứa từ cấm ở §1 (bản tiếng Anh **và** tiếng Việt cho tầng B);
-- dòng từ khoá có tên thành phố VN mà **không khai** `market` + `geo_mode` *(cổng GEO)*;
+- dòng từ khoá có tên thành phố VN mà **không khai** `market` + `geo_mode` *(cổng GEO-TARGET)*;
 - dòng từ khoá thuộc `market` nhóm **rủi ro cao** (AU · UK · EU · GCC) mà `ghi_chu` **chưa khai** cách xử lý creative rủi ro *(cổng REGULATED)*;
 - còn claim `lifetime warranty` · `board certified` · `permanent result` ở bất kỳ ô nội dung nào.
 

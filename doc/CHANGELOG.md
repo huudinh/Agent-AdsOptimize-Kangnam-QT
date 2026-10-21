@@ -1,5 +1,111 @@
 # CHANGELOG — ADS OPTIMIZE KANGNAM QUỐC TẾ
 
+## v1.1 — 21/10/2026 · Nạp bộ truy vấn GEO + 4 rào pháp lý còn thiếu
+
+Nguồn: **`HCI-Knowledge/GEOQUOCTE.xlsx`** (8 sheet, bản cập nhật 14/09/2026) → trích xuất thành [`knowledge/kn-truy-van-geo-qt.md`](../knowledge/kn-truy-van-geo-qt.md).
+
+### Thêm MODE 5 · GEO-ANSWER
+
+**83 truy vấn tiếng Anh · 15 cụm · 53 CORE 80/20.** Mục tiêu: khi khách nước ngoài hỏi AI bằng tiếng Anh về thẩm mỹ tại Việt Nam, **câu trả lời trích dẫn Kangnam**. Mục tiêu quý: **Share of Voice ≥ 30%** ở cụm Tầng A.
+
+Đây là **kênh khác**, không phải quảng cáo trả tiền — và trộn lẫn là sai cả hai:
+
+| | Ads (MODE 1–4) | **GEO (MODE 5)** |
+|---|---|---|
+| Đo bằng | CPL · chi phí/khách đến khám | **Share of Voice** |
+| Nhịp | Tuần · cohort 8 tuần | **Quý** |
+| Khung viết | **AIDA** (L1–L6) | **PAS** |
+| `market` / `geo_mode` | ✅ bắt buộc | ⛔ **không có** |
+| Cổng WIN 3/4 | ✅ | ⛔ không áp |
+
+### ⚠️ Đổi tên: "cổng GEO" → "cổng GEO-TARGET"
+
+Chữ **GEO** bị dùng cho hai thứ khác nhau, và nhầm là nhầm cả kênh:
+
+| Viết là | Nghĩa | Thuộc |
+|---|---|---|
+| **GEO-TARGET** (`geo_mode`) | Geo-targeting — `Presence` vs `Presence+Interest` | Paid ads |
+| **GEO** | **Generative Engine Optimization** — tối ưu để AI trích dẫn | MODE 5 |
+
+→ Đã đổi tên nhất quán trong **9 file**. Trường JSON `geo_mode` **giữ nguyên** (là thuật ngữ Google Ads, không gây nhầm trong ngữ cảnh).
+
+### ✅ Bộ GEO xác nhận độc lập ba kết luận của v1.0
+
+Hai bộ được làm **độc lập** mà trùng kết luận — tín hiệu tốt, nghĩa là các kết luận đó không phải suy diễn:
+
+| v1.0 tự dựng | Bộ GEO gọi là |
+|---|---|
+| **Rào cản XA** (*bay về rồi ai lo cho tôi*) | *"nỗi sợ riêng của medical tourism"* — cụm Q14+Q15, **10,9% điểm** |
+| **Chặng S4 · kế hoạch chuyến đi** | **G-S4 · PLAN THE TRIP** — khớp **chính xác**, và cũng được xếp là đòn bẩy đặc thù |
+| **Số ngày ở lại là nút thắt** | Q13-01 là truy vấn **Hot/P1/CORE** đứng đầu cụm logistics |
+| **Giá phải hiện, bằng USD** | Q11 hạng 3 — *"bảng giá USD công khai min–max là đòn quyết định"* |
+
+### 🔴 Bốn rào pháp lý v1.0 CÒN THIẾU — đã bổ sung vào `kn-rao-phap-ly-qt.md` §4b
+
+Đây là phần có giá trị thực nhất từ bộ GEO. Cả bốn là **rào cứng**, áp cho **cả nội dung GEO và quảng cáo trả tiền**:
+
+| Mã | Rào | Chạm | Vì sao là rào cứng |
+|---|---|---|---|
+| **R2** | **Danh mục kỹ thuật (DMKT)** | 3 TV (3 CORE) | ⛔ Không QC kỹ thuật **ngoài danh mục đã phê duyệt** — **deep plane · BBL · abs etching**. Vượt phạm vi hoạt động |
+| **R3** | **Đúng pháp nhân** — điểm nóng | 8 TV (7 CORE) | ⛔ Site EN không gộp nhiều cơ sở/pháp nhân; không dùng tên "Kangnam" cho dịch vụ ngoài phạm vi |
+| **R7** | **Túi ngực · thiết bị · filler** | **9 TV** (6 CORE) | ⛔ Chỉ nêu hãng **thực dùng, có số lưu hành**. Nhiều thứ hai sau R1 |
+| **R8** | **KCB cho người nước ngoài** | 4 TV (4 CORE) | 🔴 **Nóng nhất** — xem dưới |
+
+**R8 là rào quan trọng nhất mà gói này từng thiếu.** R2/R3/R7 nói về **câu chữ**; R8 nói về **điều kiện hoạt động** — có được tiếp nhận khách quốc tế hay không.
+
+> Một chiến dịch chạy tốt, landing chấm 90 điểm, mẫu quảng cáo 14/14 — nhưng cơ sở **chưa đủ điều kiện R8** thì **lead đổ về là rủi ro, không phải thành tích.**
+
+**Hai dịch vụ bị chặn tới khi chốt được điều kiện:**
+- **Q08 Dental** — chốt **pháp nhân RHM** (Kangnam Dental hay Nha Khoa Paris) trước khi xuất bản bất kỳ nội dung nào *(R3)*.
+- **Q09 BBL** — chỉ làm nếu kỹ thuật **thuộc DMKT**, và nội dung phải **nói thật rủi ro thuyên tắc mỡ** *(R2)*. Thủ thuật rủi ro cao nhất ngành.
+
+### Thứ tự quyết định của khách quốc tế — và hệ quả
+
+Bộ GEO làm rõ khách quốc tế hỏi AI **theo thứ tự**:
+```
+① Vietnam/cơ sở có an toàn & được phép không
+      → ② giá USD so với nước nhà/Thái/Hàn
+            → ③ chuyến đi thu xếp ra sao, ở bao lâu
+                  → ④ MỚI TỚI từng dịch vụ
+```
+→ **Tầng A là 4 cụm NGANG dịch vụ, không phải trang dịch vụ:** Q10 chọn cơ sở · Q12 an toàn/giấy phép · Q11 giá USD · Q13 logistics. Bốn cụm = **46,9% điểm**, **70% ngân sách EN**, Sóng 1 (90 ngày).
+⛔ Làm trang dịch vụ trước 4 trang Tầng A là **đi sai thứ tự** — AI không có gì để trích dẫn khi khách hỏi câu ① ② ③.
+
+### ⚠️ Hai hệ giai đoạn KHÔNG trùng khớp — dùng bảng ánh xạ, đừng đánh số lại
+
+Bộ GEO dùng **6 giai đoạn** (G-S1…G-S6); bộ não dùng **7 chặng** (S1…S7). Hai chỗ lệch:
+① **"S2"** ở hai bộ là hai thứ khác nhau — G-S2 là chọn **kỹ thuật**, S2 (ads) là chọn **nước**.
+② **Giá**: GEO coi giá là phần của nỗi sợ (G-S3); ads coi giá là chặng hành động (S5). Cả hai đúng cho kênh của mình.
+
+⛔ **Không đánh số lại một hệ theo hệ kia** — file nguồn do team GEO/Content bảo trì. Bảng ánh xạ: `kn-truy-van-geo-qt.md` §2.
+
+### Thay đổi file
+
+```
+SYSTEM-PROMPT.md       36.128 → 42.478 ký tự   (+ §15b MODE 5, + 6 rule, + phân biệt GEO)
+SYSTEM-PROMPT-NGAN.md   7.961 →  7.967 ký tự   (vẫn dưới 8.000 — xem đánh đổi dưới)
+knowledge/              8 → 9 file             (+ kn-truy-van-geo-qt.md, 80 KB)
+prompts/                4 → 5 file             (+ prompt-geo-answer.md)
+kn-rao-phap-ly-qt.md    + §4b (R2·R3·R7·R8) + 4 dòng "cần xác nhận"
+```
+
+**Đánh đổi của bản ngắn:** để nhét MODE 5 và rào **R8** vào 8.000 ký tự, đã **cắt các dòng SPEC** (giới hạn ký tự RSA/Meta · danh sách kênh CTA từng market · token màu · 7 rào tương phản · ô ảnh tạm) — tất cả đều có **đầy đủ trong Knowledge**. Giữ lại các dòng **GATE** (chặn output hoặc gây hại nếu vi phạm). Nguyên tắc: *bản ngắn là bộ cổng chặn, không phải bộ spec.*
+
+### ⚠️ Việc còn treo — thêm 4 mục
+
+Ngoài 15 mục của v1.0:
+
+| # | Việc | Ai | Mức |
+|---|---|---|---|
+| 16 | 🔴 **R8 — cơ sở + bác sĩ đủ điều kiện KCB cho người nước ngoài**, phiên dịch chuyên môn, hồ sơ song ngữ | Pháp chế + Điều phối QT | 🔴 Chặn mọi chiến dịch quốc tế |
+| 17 | **R2 — DMKT từng cơ sở**: deep plane · BBL · abs etching có trong danh mục không | Pháp chế | 🔴 Chặn Q03 · Q09 |
+| 18 | **R3 — pháp nhân site EN**, và **nha khoa: Kangnam Dental hay Nha Khoa Paris** | Pháp chế | 🔴 Chặn Q08 |
+| 19 | **R7 — số lưu hành** túi ngực · thiết bị · filler thực dùng | BS + Pháp chế | 🟠 Chạm 9 truy vấn |
+
+> Mục 1 của v1.0 (**bảng số ngày ở lại**) giờ chặn **hai** thứ: khối B08 của landing **và** trang `/medical-tourism-guide` của Q13. Đòn bẩy của nó cao hơn trước.
+
+---
+
 ## v1.0 — 21/10/2026 · Bản đầu tiên
 
 Gói mới, tách khỏi [`Agent-AdsOptimize-Kangnam`](../../Agent-AdsOptimize-Kangnam/) (nội địa) và kế thừa bộ não của nó + [`Agent-LDP-Kangnam`](../../Agent-LDP-Kangnam/).
@@ -11,10 +117,10 @@ Gói mới, tách khỏi [`Agent-AdsOptimize-Kangnam`](../../Agent-AdsOptimize-K
 ### Cấu trúc
 
 ```
-SYSTEM-PROMPT.md          36.128 ký tự  (Claude / Gemini)
-SYSTEM-PROMPT-NGAN.md      7.961 ký tự  (ChatGPT — bản cổng chặn, đã cắt quy trình)
-knowledge/   7 file
-prompts/     4 file
+SYSTEM-PROMPT.md          36.128 ký tự  (Claude / Gemini)   → v1.1: 42.478
+SYSTEM-PROMPT-NGAN.md      7.961 ký tự  (ChatGPT)            → v1.1:  7.967
+knowledge/   8 file                                          → v1.1: 9 file
+prompts/     4 file                                          → v1.1: 5 file
 markets/     schema + 1 ví dụ đã build được
 tools/       generator .xlsx, 3 cổng chặn, 14/14 test gate pass
 template/    lp-skeleton-en.html + bản lưu trang tham chiếu
@@ -50,7 +156,7 @@ S4 là chặng khách rụng nhiều mà **không ai đo**, vì nó xảy ra sau
 
 → Ngân sách **S4 ≥ 15%**, S3 ≥ 10%, tầng B ≥ 15%.
 
-#### ④ Cổng GEO — ràng buộc cứng, thay cho cổng TUYẾN
+#### ④ Cổng GEO-TARGET — ràng buộc cứng, thay cho cổng TUYẾN
 Gói nội địa có bẫy TUYẾN (đại phẫu + tên tỉnh chỉ có viện tỉnh). **Gói QT không có bẫy đó** — site quốc tế chỉ công bố 2 cơ sở, cả hai là tuyến bệnh viện.
 
 Nhưng nó có bẫy riêng, mức độ nghiêm trọng như nhau:
@@ -62,7 +168,7 @@ Nhưng nó có bẫy riêng, mức độ nghiêm trọng như nhau:
 → Mọi dòng từ khoá khai `market` (người gõ **đang ở đâu**) + `geo_mode`. Tầng D bắt buộc `Presence`.
 ⛔ Để Google tự chọn (mặc định `Presence or interest`) cho chiến dịch expat → tràn traffic quốc tế, CPL trông rẻ, **không ai đến khám**. **Lỗi này im lặng** — Google Ads không cảnh báo.
 
-Cài ở 4 chỗ: §4 bộ não · tiêu chí ⑦ bảng chấm WIN (0 điểm = loại thẳng) · bước ③ MODE 3 · **cổng GEO trong generator**.
+Cài ở 4 chỗ: §4 bộ não · tiêu chí ⑦ bảng chấm WIN (0 điểm = loại thẳng) · bước ③ MODE 3 · **cổng GEO-TARGET trong generator**.
 
 #### ⑤ Hai tầng pháp lý cùng lúc
 Nội dung chịu **luật Việt Nam** (luôn áp) **và luật nước người xem**.

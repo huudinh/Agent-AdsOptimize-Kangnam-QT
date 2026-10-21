@@ -1,6 +1,6 @@
 # 🌏 ADS OPTIMIZE — KANGNAM QUỐC TẾ (KN-QT)
 
-> Version 1.0 · AI **nghiên cứu bộ từ khoá · sinh mẫu quảng cáo tiếng Anh · dựng landing page** cho khách quốc tế của **Kangnam Korean Aesthetic Hospital** — làm theo chỉ số, theo **tầng thị trường**, và theo **luật quảng cáo của nước người xem**.
+> Version 1.1 · AI **nghiên cứu bộ từ khoá · sinh mẫu quảng cáo tiếng Anh · dựng landing page · sản xuất nội dung để AI trích dẫn (GEO)** cho khách quốc tế của **Kangnam Korean Aesthetic Hospital** — làm theo chỉ số, theo **tầng thị trường**, và theo **luật quảng cáo của nước người xem**.
 
 Theo công thức HCI **R·M·K·W·O**. Kiến trúc **BRAIN brand-neutral** ([`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md)) + **MODULE thương hiệu tách riêng** ([`knowledge/kn-ho-so-thuong-hieu-qt.md`](knowledge/kn-ho-so-thuong-hieu-qt.md)) → đổi brand chỉ cần thay module.
 
@@ -10,7 +10,7 @@ Agent anh em: [`Agent-AdsOptimize-Kangnam`](../Agent-AdsOptimize-Kangnam/) (nộ
 
 ---
 
-## Ba đầu ra lõi
+## Ba đầu ra lõi + hai mode kế thừa/mở rộng
 
 | Mode | Làm gì | Input tối thiểu | Đầu ra |
 |---|---|---|---|
@@ -18,6 +18,7 @@ Agent anh em: [`Agent-AdsOptimize-Kangnam`](../Agent-AdsOptimize-Kangnam/) (nộ
 | **2 · WIN-AD** | Từ bộ từ khoá → mẫu quảng cáo tiếng Anh | từ khoá + **market** + dịch vụ | 15 headline + 4 description + 3–5 biến thể Meta + bảng chấm 14 điểm |
 | **3 · LDP-BUILD** | Từ cụm từ khoá → landing khung L1–L6 | cụm từ khoá + **market** + dịch vụ | copy-deck 14 khối, hoặc **HTML single-file** + bảng kê ảnh |
 | **4 · OPTIMIZE** *(kế thừa)* | Đọc Ads + GA4 + CRM → chẩn đoán | số liệu **cắt theo market** | điểm nghẽn theo phễu 8 bước + 4 quyết định |
+| **5 · GEO-ANSWER** ★ | Nội dung EN để **AI trích dẫn** Kangnam | **cụm Q01–Q15** | nội dung EN theo trang đích + prompt đo **Share of Voice** |
 
 ⛔ **Thiếu `market` thì không chạy mode nào.** Không biết người xem ở đâu thì không biết luật nào áp, viết ngôn ngữ nào, gắn kênh nào.
 
@@ -96,7 +97,7 @@ Thay vào đó, gói QT có bẫy riêng, mức độ nghiêm trọng như nhau:
 
 ⛔ **Để Google tự chọn kiểu nhắm** (mặc định `Presence or interest`) cho chiến dịch expat → tràn traffic quốc tế, CPL trông rẻ mà **không ai đến khám**. **Lỗi này im lặng** — Google Ads không cảnh báo.
 
-Cài ở **4 chỗ**: §4 bộ não · tiêu chí ⑦ bảng chấm WIN (0 điểm → loại thẳng) · bước ③ MODE 3 · **cổng GEO trong generator**.
+Cài ở **4 chỗ**: §4 bộ não · tiêu chí ⑦ bảng chấm WIN (0 điểm → loại thẳng) · bước ③ MODE 3 · **cổng GEO-TARGET trong generator**.
 
 ### ⑤ ⚠️ HAI TẦNG PHÁP LÝ cùng lúc
 
@@ -337,19 +338,21 @@ Bộ câu lệnh đầy đủ: [`doc/02-cau-lenh.md`](doc/02-cau-lenh.md)
 
 | File | Nội dung | Trạng thái |
 |---|---|---|
-| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 19 mục · **36.128 ký tự** | ✅ |
-| [SYSTEM-PROMPT-NGAN.md](SYSTEM-PROMPT-NGAN.md) | Bản cổng chặn **7.961 ký tự** — chỉ cho **ChatGPT**. ⚠️ Đã cắt phần quy trình, **bắt buộc nạp Knowledge** | ✅ |
+| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 20 mục · **42.478 ký tự** | ✅ |
+| [SYSTEM-PROMPT-NGAN.md](SYSTEM-PROMPT-NGAN.md) | Bản cổng chặn **7.967 ký tự** — chỉ cho **ChatGPT**. ⚠️ Đã cắt phần quy trình, **bắt buộc nạp Knowledge** | ✅ |
 | [knowledge/kn-rao-phap-ly-qt.md](knowledge/kn-rao-phap-ly-qt.md) | **Cổng pháp lý hai tầng** · từ cấm tiếng Anh · luật ảnh theo market · GDPR | ✅ |
-| [knowledge/kn-thi-truong-quoc-te.md](knowledge/kn-thi-truong-quoc-te.md) | ★ **File lõi** — 4 tầng · cổng GEO · bản đồ thị trường × dịch vụ · mùa bay · giá · **số ngày ở lại** | ✅ |
+| [knowledge/kn-thi-truong-quoc-te.md](knowledge/kn-thi-truong-quoc-te.md) | ★ **File lõi** — 4 tầng · cổng GEO-TARGET · bản đồ thị trường × dịch vụ · mùa bay · giá · **số ngày ở lại** | ✅ |
 | [knowledge/kn-chan-dung-hanh-trinh-qt.md](knowledge/kn-chan-dung-hanh-trinh-qt.md) | ★ **4 rào cản (có XA)** · 7 chân dung · **phễu 7 chặng** | ✅ |
-| [knowledge/kn-cong-win-tu-khoa-qt.md](knowledge/kn-cong-win-tu-khoa-qt.md) | **Cổng WIN 3/4** · cổng GEO · gom nhóm · 3 ngách ưu tiên | ✅ |
+| [knowledge/kn-cong-win-tu-khoa-qt.md](knowledge/kn-cong-win-tu-khoa-qt.md) | **Cổng WIN 3/4** · cổng GEO-TARGET · gom nhóm · 3 ngách ưu tiên | ✅ |
 | [knowledge/kn-engine-win-ad-qt.md](knowledge/kn-engine-win-ad-qt.md) | B1–B7 · 10 archetype · A/B 6 lô · **chấm 14 điểm** · template RSA/Meta | ✅ |
 | [knowledge/kn-khung-landing-qt.md](knowledge/kn-khung-landing-qt.md) | **6 khung L1–L6 · 14 khối · Design System v1.0 · form quốc tế · scorecard** | ✅ |
 | [knowledge/kn-ho-so-thuong-hieu-qt.md](knowledge/kn-ho-so-thuong-hieu-qt.md) | Thương hiệu · 2 cơ sở · bác sĩ · trust · bảng giá · quy trình 5 bước *(module swappable)* | ✅ |
 | [knowledge/kn-chan-doan-chi-so-qt.md](knowledge/kn-chan-doan-chi-so-qt.md) | **Phễu 8 bước** · luật độ trễ · bảng chẩn đoán · báo cáo 4 chiều | ✅ |
+| [knowledge/kn-truy-van-geo-qt.md](knowledge/kn-truy-van-geo-qt.md) | ★ **MODE 5** — 83 truy vấn GEO · 15 cụm · 80/20 · bản đồ trang đích · 20 prompt đo SoV · **rào R0–R9** | ✅ |
 | [prompts/prompt-nghien-cuu-tu-khoa.md](prompts/prompt-nghien-cuu-tu-khoa.md) | MODE 1 — 5 prompt + checklist nghiệm thu | ✅ |
 | [prompts/prompt-build-ad-set.md](prompts/prompt-build-ad-set.md) | MODE 2 — 5 prompt + checklist | ✅ |
 | [prompts/prompt-build-landing-page.md](prompts/prompt-build-landing-page.md) | MODE 3 — 6 prompt + checklist giao hàng | ✅ |
+| [prompts/prompt-geo-answer.md](prompts/prompt-geo-answer.md) | **MODE 5** — 6 prompt + bảng đo SoV + checklist | ✅ |
 | [prompts/prompt-quy-trinh-tron-goi.md](prompts/prompt-quy-trinh-tron-goi.md) | Dây chuyền 6 bước MODE 1→2→3, **3 chốt dừng** | ✅ |
 | [markets/README.md](markets/README.md) | Schema JSON 17 khối + **3 cổng chặn** | ✅ |
 | [markets/rhinoplasty-tier-c-au.json](markets/) | **Ví dụ hoàn chỉnh đã build được** — 5 chân dung · 6 chiến dịch · 6 landing · 26 từ khoá | ✅ |
