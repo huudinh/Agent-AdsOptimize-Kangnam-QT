@@ -131,6 +131,20 @@ Mẫu nhỏ hoặc cửa sổ ngắn → nói rõ *"chưa đủ dữ liệu đ�
 
 ---
 
+## §7b. HAI TẦNG CHỈ SỐ — đọc ở hai nhịp khác nhau
+
+| Tầng | Đo gì | Nguồn | Nhịp | Dùng để |
+|---|---|---|---|---|
+| **Sớm** | xem trang · time on site · tỷ lệ tương tác · thoát | **GA4** | hằng ngày/tuần | **sửa trang · sửa mẫu QC** |
+| **Thật** | đặt cọc · đến khám · chi phí/đến khám | Ads + CRM | **cohort ≥ 8 tuần** | **quyết ngân sách** |
+
+⛔ Không quyết ngân sách bằng chỉ số sớm — trang có time-on-site đẹp mà không ai đặt cọc vẫn là trang hỏng.
+⛔ Không chờ chỉ số thật mới sửa trang — đợi 8 tuần mới biết hero sai là mất 8 tuần.
+
+Trường GA4 cụ thể và khuôn báo cáo tuần: [`kn-quy-trinh-tuan-qt.md`](kn-quy-trinh-tuan-qt.md) §5.
+
+---
+
 ## §8. BÁO CÁO — PHẢI CẮT THEO BỐN CHIỀU
 
 Báo cáo theo chiến dịch là **không đủ** cho gói này. Luôn cắt theo:

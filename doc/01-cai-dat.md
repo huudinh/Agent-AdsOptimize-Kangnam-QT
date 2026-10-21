@@ -31,22 +31,23 @@ Cho mình biết THỊ TRƯỜNG (nước khách đang ở, hoặc "expat tại 
 ## Claude Project — **khuyến nghị**
 
 1. Tạo Project mới, đặt tên và mô tả ở §0.
-2. **Custom instructions:** dán khối giữa hai vạch ▼▲ trong [`SYSTEM-PROMPT.md`](../SYSTEM-PROMPT.md) (**42.620 ký tự** — Claude không giới hạn).
-3. **Project knowledge:** upload **9 file** trong [`knowledge/`](../knowledge/).
+2. **Custom instructions:** dán khối giữa hai vạch ▼▲ trong [`SYSTEM-PROMPT.md`](../SYSTEM-PROMPT.md) (**43.452 ký tự** — Claude không giới hạn).
+3. **Project knowledge:** upload **10 file** trong [`knowledge/`](../knowledge/).
 4. Upload thêm cho MODE 1: [`tools/build_keyword_workbook.py`](../tools/) + [`markets/README.md`](../markets/README.md) + [`markets/rhinoplasty-tier-c-au.json`](../markets/).
 5. Upload thêm cho MODE 3: [`template/lp-skeleton-en.html`](../template/lp-skeleton-en.html).
 6. MODE 5 không cần file ngoài — `kn-truy-van-geo-qt.md` đã chứa đủ 83 truy vấn và 20 prompt đo SoV.
+7. `kn-quy-trinh-tuan-qt.md` là file **nối bốn MODE thành một vòng lặp tuần**. Thiếu nó thì agent vẫn chạy được từng MODE riêng, nhưng không biết tuần này nên làm trang nào trước, và **không biết khuôn báo cáo**.
 
 ## Gemini (Gems)
 
-Như Claude. Ô **Chỉ dẫn** nhận được bản đầy đủ. Nạp đủ 9 file vào phần **Tri thức**.
+Như Claude. Ô **Chỉ dẫn** nhận được bản đầy đủ. Nạp đủ 10 file vào phần **Tri thức**.
 
 ## ChatGPT (Custom GPT) — ⚠️ dùng BẢN NGẮN, và đọc kỹ đánh đổi
 
 Ô Instructions của Custom GPT giới hạn **8.000 ký tự**. Bộ quy tắc của gói này **không nhét đủ** vào đó.
 
 1. **Instructions:** dán khối ▼▲ trong [`SYSTEM-PROMPT-NGAN.md`](../SYSTEM-PROMPT-NGAN.md) (**7.979 ký tự**).
-2. **Knowledge:** upload **9 file** `knowledge/` — **bắt buộc, không phải tuỳ chọn**. Bản ngắn chỉ giữ cổng chặn, đã cắt hẳn phần quy trình.
+2. **Knowledge:** upload **10 file** `knowledge/` — **bắt buộc, không phải tuỳ chọn**. Bản ngắn chỉ giữ cổng chặn, đã cắt hẳn phần quy trình.
 3. Upload thêm **5 file `prompts/`** vào Knowledge để bù phần quy trình đã cắt.
 4. Bật **Code Interpreter** (cho MODE 1 xuất Excel).
 
@@ -54,7 +55,7 @@ Như Claude. Ô **Chỉ dẫn** nhận được bản đầy đủ. Nạp đủ 
 
 ---
 
-# 2. Chín file tri thức
+# 2. Mười file tri thức
 
 | File | Nội dung | Bắt buộc |
 |---|---|---|
@@ -67,6 +68,7 @@ Như Claude. Ô **Chỉ dẫn** nhận được bản đầy đủ. Nạp đủ 
 | `kn-ho-so-thuong-hieu-qt.md` | Thương hiệu · 2 cơ sở · bác sĩ · trust · bảng giá · quy trình 5 bước | ✅ |
 | `kn-chan-doan-chi-so-qt.md` | **Phễu 8 bước** · luật độ trễ 4–12 tuần · bảng chẩn đoán · báo cáo 4 chiều | ✅ |
 | `kn-truy-van-geo-qt.md` | ★ **MODE 5** — 83 truy vấn GEO · 15 cụm · bản đồ trang đích · 20 prompt đo SoV · **rào R0–R9** | ✅ |
+| `kn-quy-trinh-tuan-qt.md` | ★ **Vòng lặp tuần 4 bước** — 3 nguồn từ khoá · 3 nhóm người tìm · bảng kế hoạch sản xuất · **2 tầng chỉ số** · khuôn báo cáo tuần · trạng thái kết nối dữ liệu | ✅ |
 
 > **Không upload** lên Knowledge: `doc/` · `out/`. `template/lp-reference-*.html` cũng không cần (100 KB, Agent đã có phần cần thiết trong `kn-khung-landing-qt.md`).
 
@@ -132,6 +134,10 @@ Mở thị trường mới
                                      └─ sau ≥ 8 tuần ──→ MODE 4
 ```
 
+Vòng này **không chạy một lần rồi xong**. Sau MODE 4 là quay lại MODE 1 với từ khoá thực đổ vào landing đang chạy — xem `kn-quy-trinh-tuan-qt.md` §1.
+
+**Nhịp tuần:** thứ 2 đọc chỉ số sớm → chốt việc tuần · thứ 6 cập nhật trạng thái landing · đầu tháng đo SoV · **mỗi 8 tuần đọc cohort để quyết ngân sách**.
+
 **Luật độ trễ:** ⛔ không gọi MODE 4 để kết luận hiệu quả của chiến dịch tầng B/C trước **8 tuần**. Trước đó chỉ đọc được chỉ số sớm: CTR · tỷ lệ phản hồi được · tỷ lệ đặt cọc. Tầng D (expat) thì 1–2 tuần là đủ.
 
 ---
@@ -148,5 +154,8 @@ Mở thị trường mới
 | Generator báo lỗi cổng REGULATED | `ghi_chu` chưa khai cách xử lý creative cho market rủi ro cao | Thêm vào `ghi_chu`, xem `markets/README.md` |
 | `ModuleNotFoundError: openpyxl` | Thiếu thư viện | `pip install openpyxl` |
 | Chữ Việt trong thông báo lỗi bị hỏng | Console Windows là cp1252 | Đã xử lý trong script. Bản cũ thì chạy `chcp 65001` trước |
+| Báo cáo tuần không có cột `market` | CRM chưa khai 3 thẻ `market`·`tier`·`stage` | **Báo cáo thiếu cột `market` là không dùng được** — khai thẻ trước khi chạy tiếp |
+| Agent trộn chỉ số sớm với chỉ số cohort trong một bảng | Chưa nạp `kn-quy-trinh-tuan-qt.md` | Nạp lại §5. Hai tầng chỉ số **không được trộn** |
+| Agent bắt đầu chọn từ khoá từ Keyword Planner | Chưa nạp §8b `kn-cong-win-tu-khoa-qt.md` | Nạp lại. Thứ tự đúng: bộ GEO → landing đang chạy → Planner chỉ để điền `volume`·`cpc` |
 | Agent dựng landing khổ 480px | Đang dùng Design System của gói nội địa | Nhắc: gói QT **responsive max-width 1140px** |
 | Landing dùng font Roboto | Brand chưa chốt cặp font | Xem *Việc còn treo* ở [`CHANGELOG.md`](CHANGELOG.md) |

@@ -338,7 +338,7 @@ Bộ câu lệnh đầy đủ: [`doc/02-cau-lenh.md`](doc/02-cau-lenh.md)
 
 | File | Nội dung | Trạng thái |
 |---|---|---|
-| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 20 mục · **42.620 ký tự** | ✅ |
+| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 20 mục · **43.452 ký tự** | ✅ |
 | [SYSTEM-PROMPT-NGAN.md](SYSTEM-PROMPT-NGAN.md) | Bản cổng chặn **7.979 ký tự** — chỉ cho **ChatGPT**. ⚠️ Đã cắt phần quy trình, **bắt buộc nạp Knowledge** | ✅ |
 | [knowledge/kn-rao-phap-ly-qt.md](knowledge/kn-rao-phap-ly-qt.md) | **Cổng pháp lý hai tầng** · từ cấm tiếng Anh · luật ảnh theo market · GDPR | ✅ |
 | [knowledge/kn-thi-truong-quoc-te.md](knowledge/kn-thi-truong-quoc-te.md) | ★ **File lõi** — 4 tầng · cổng GEO-TARGET · bản đồ thị trường × dịch vụ · mùa bay · giá · **số ngày ở lại** | ✅ |
@@ -349,6 +349,7 @@ Bộ câu lệnh đầy đủ: [`doc/02-cau-lenh.md`](doc/02-cau-lenh.md)
 | [knowledge/kn-ho-so-thuong-hieu-qt.md](knowledge/kn-ho-so-thuong-hieu-qt.md) | Thương hiệu · 2 cơ sở · bác sĩ · trust · bảng giá · quy trình 5 bước *(module swappable)* | ✅ |
 | [knowledge/kn-chan-doan-chi-so-qt.md](knowledge/kn-chan-doan-chi-so-qt.md) | **Phễu 8 bước** · luật độ trễ · bảng chẩn đoán · báo cáo 4 chiều | ✅ |
 | [knowledge/kn-truy-van-geo-qt.md](knowledge/kn-truy-van-geo-qt.md) | ★ **MODE 5** — 83 truy vấn GEO · 15 cụm · 80/20 · bản đồ trang đích · 20 prompt đo SoV · **rào R0–R9** | ✅ |
+| [knowledge/kn-quy-trinh-tuan-qt.md](knowledge/kn-quy-trinh-tuan-qt.md) | ★ **Vòng lặp tuần 4 bước** — 3 nguồn từ khoá · 3 nhóm người tìm · bảng kế hoạch sản xuất · **2 tầng chỉ số** · khuôn báo cáo tuần | ✅ |
 | [prompts/prompt-nghien-cuu-tu-khoa.md](prompts/prompt-nghien-cuu-tu-khoa.md) | MODE 1 — 5 prompt + checklist nghiệm thu | ✅ |
 | [prompts/prompt-build-ad-set.md](prompts/prompt-build-ad-set.md) | MODE 2 — 5 prompt + checklist | ✅ |
 | [prompts/prompt-build-landing-page.md](prompts/prompt-build-landing-page.md) | MODE 3 — 6 prompt + checklist giao hàng | ✅ |

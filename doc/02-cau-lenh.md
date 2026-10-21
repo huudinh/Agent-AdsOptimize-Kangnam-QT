@@ -263,6 +263,88 @@ Chi tiết: [`prompts/prompt-quy-trinh-tron-goi.md`](../prompts/prompt-quy-trinh
 
 ---
 
+# 6b. Vòng lặp tuần — chọn từ khoá → gom cụm → kế hoạch LDP → báo cáo
+
+Mục 6 là **mở một thị trường mới**, chạy một lần. Mục 6b là **nhịp vận hành hằng tuần** sau khi
+đã có landing chạy. Tri thức nền: [`knowledge/kn-quy-trinh-tuan-qt.md`](../knowledge/kn-quy-trinh-tuan-qt.md)
+
+## 6b.1 Chạy trọn vòng một tuần — bốn bước
+```
+Chạy trọn vòng tuần này cho thị trường [Úc], dịch vụ [nâng mũi].
+
+Bước 1 — chọn từ khoá: lấy từ bộ truy vấn GEO, cộng truy vấn thực đang đổ vào
+landing đang chạy. Tách rõ ba nhóm người tìm.
+Bước 2 — gom cụm: mỗi cụm là một landing.
+Bước 3 — kế hoạch sản xuất: trang nào làm trước, ngân sách tuần, ai làm, xong khi nào.
+Bước 4 — khuôn báo cáo: tuần sau đọc chỉ số nào.
+
+Chỗ nào thiếu dữ liệu thì ghi [PENDING: ... — bộ phận nào], đừng đoán.
+```
+
+## 6b.2 Từ bộ từ khoá sang kế hoạch làm landing
+```
+Đây là bộ từ khoá đã duyệt cho [thị trường]. Gom thành cụm, mỗi cụm một landing.
+
+Mỗi cụm cho tôi: tên cụm · khung landing nào (L1–L6) · chặng phễu nào (S1–S7) ·
+nỗi lo chính phải gỡ · ước lượng ngân sách tuần · độ ưu tiên.
+
+Xếp theo thứ tự nên làm, và nói rõ vì sao trang đầu tiên là trang đó.
+```
+
+## 6b.3 Báo cáo tuần các landing đang chạy
+```
+Làm báo cáo tuần cho các landing đang chạy ở [thị trường].
+
+Số liệu tôi dán ở dưới, lấy từ Google Analytics và Google Ads.
+Tách rõ hai tầng: chỉ số sớm (đọc tuần) và chỉ số cohort (đọc mỗi 8 tuần).
+Đừng trộn hai tầng trong một kết luận.
+
+Kết thúc bằng bảng việc tuần tới và danh sách trang đang bị chặn vì thiếu dữ liệu.
+
+[dán số liệu]
+```
+> ⛔ Báo cáo **thiếu cột `market` hoặc `cohort`** là báo cáo không dùng được — agent sẽ nói
+> thẳng điều đó thay vì kết luận trên số liệu đã trộn thị trường.
+
+## 6b.4 Một trang có đang hiệu quả không
+```
+Trang [URL hoặc tên] chạy được [số] tuần. Số liệu ở dưới.
+
+Nó đang hiệu quả hay không, và nếu chưa thì sai ở khối nào?
+Nói rõ cái gì kết luận được bây giờ, cái gì phải chờ đủ cửa sổ.
+
+[dán số liệu]
+```
+*Thời gian trên trang dưới **45 giây** thì hero sai — sửa ngay, không chờ ai đặt cọc.*
+
+## 6b.5 Cần nối dữ liệu gì để báo cáo tự chạy
+```
+Liệt kê đúng những gì cần nối để báo cáo tuần tự động được: nguồn nào, lấy trường nào
+từ Google Analytics và Google Ads, và cần khai thêm gì trong CRM.
+
+Nói rõ cái gì đang thiếu khiến báo cáo chưa tự động được.
+```
+
+**Trạng thái kết nối hiện tại** (tra 21/10/2026):
+
+| Nguồn | Trạng thái | Ghi chú |
+|---|---|---|
+| **Google Analytics** — site quốc tế | ✅ **đã nối** | Property `417341092` = `kangnamaesthetichospital.com` |
+| Google Analytics — site nội địa | ✅ đã nối | Property `253218410` |
+| **Google Ads** | ❌ **chưa có tài khoản nào được nối** | **Không có bất kỳ chỉ số chi phí nào cho tới khi nối** |
+| Keyword Planner | ⚠️ đã xác thực | Chỉ dùng điền `volume` · `cpc` |
+| **Trình kéo số liệu (Supermetrics)** | 🔴 **trial hết hạn 24/07/2026** | **Chặn mọi truy vấn số liệu tự động** |
+
+Nên: bước 4 hiện **làm tay** — đọc số trên Google Analytics và Google Ads rồi điền vào khuôn
+báo cáo §5.4 của `kn-quy-trinh-tuan-qt.md`. Tên trường trong khuôn đã khai đúng theo GA4
+nên khi nối lại được là dùng ngay, không phải dựng lại.
+
+**Ba việc để tự động hoá:** ① gia hạn trình kéo số liệu · ② **nối tài khoản Google Ads** ·
+③ khai **ba thẻ CRM** `market` · `tier` · `stage` cho mọi lead **ngay từ đầu** — không gắn từ
+đầu thì 8 tuần sau không cắt được cohort.
+
+---
+
 # 7. Prompt hỏi đáp (không sản xuất)
 
 ```
@@ -298,7 +380,10 @@ Tôi nên điền dữ liệu gì trước để gói này chạy được tốt
 | Kết luận hiệu quả sau 3 tuần | Nói rõ chưa kết luận được, chỉ đọc chỉ số sớm |
 | Chẩn đoán tình trạng mũi qua ảnh tôi gửi | Từ chối. Pre-consultation là việc của bác sĩ |
 | Sửa generator để lách cổng | Từ chối. Sửa JSON, không sửa script |
-| Viết nội dung GEO cho Q08 Dental | Dừng. Phải **chốt pháp nhân RHM** trước (rào R3) |
+| Viết nội dung GEO cho Q08 Dental | Chạy được — pháp nhân đã chốt. Nhưng vẫn **gắn 2 điều kiện**: bằng chứng hiện chỉ có ở TP.HCM, và trang web **không phải** phụ lục phạm vi giấy phép |
 | Viết nội dung GEO cho Q09 BBL | Dừng. Kỹ thuật phải **thuộc DMKT** (R2), và nội dung phải **nói thật rủi ro thuyên tắc mỡ** |
 | Chấm cổng WIN cho nội dung GEO | Từ chối. Cổng WIN và `geo_mode` **không áp cho MODE 5** |
 | Bắt đầu MODE 5 từ trang dịch vụ | Cảnh báo đi sai thứ tự — **4 cụm Tầng A trước** |
+| Chọn từ khoá bắt đầu từ Keyword Planner | Cảnh báo sai thứ tự. Bộ GEO → landing đang chạy → Planner chỉ để điền `volume`·`cpc` |
+| Quyết ngân sách bằng chỉ số sớm | Từ chối. Time-on-site đẹp mà không ai đặt cọc **vẫn là trang hỏng** |
+| Đọc báo cáo không có cột `market` | Nói thẳng báo cáo **không dùng được** thay vì kết luận trên số đã trộn thị trường |

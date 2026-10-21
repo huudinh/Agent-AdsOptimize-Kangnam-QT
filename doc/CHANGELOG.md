@@ -1,5 +1,98 @@
 # CHANGELOG — ADS OPTIMIZE KANGNAM QUỐC TẾ
 
+## v1.2 — 21/10/2026 · Vòng lặp tuần + công cụ báo cáo landing
+
+Trước v1.2, gói có **bốn MODE chạy rời nhau**: làm bộ từ khoá là một việc, dựng landing là việc
+khác, đọc chỉ số là việc thứ ba. Không có gì nói tuần này nên làm trang nào trước, và không có
+khuôn báo cáo nào. v1.2 nối chúng thành **một vòng lặp chạy hằng tuần**.
+
+### Thêm `knowledge/kn-quy-trinh-tuan-qt.md` — file tri thức thứ 10
+
+```
+chọn từ khoá ──→ gom cụm ──→ kế hoạch sản xuất LDP ──→ đo & báo cáo ──┐
+     ▲                                                               │
+     └───────────────────────────────────────────────────────────────┘
+```
+
+### Ba nguồn lấy từ khoá — và lý do thứ tự quan trọng
+
+| # | Nguồn | Lấy gì |
+|---|---|---|
+| ① | **Bộ truy vấn GEO** | 83 truy vấn đã chấm 80/20 — câu khách **thật sự gõ** |
+| ② | **Landing đang chạy** | Truy vấn thực đổ vào trang (GA4 `sessionGoogleAdsQuery` · `sessionGoogleAdsKeyword`) |
+| ③ | Keyword Planner | **Chỉ** để điền hai cột `volume` · `cpc` |
+
+> ⛔ **Không bắt đầu từ Keyword Planner.** Từ khoá volume lớn nhất gần như luôn là từ khoá giá trị
+> thấp nhất. Quy tắc này đã ghi vào §8b của [`kn-cong-win-tu-khoa-qt.md`](../knowledge/kn-cong-win-tu-khoa-qt.md).
+
+### Ba nhóm người tìm — tách ra, không gộp
+
+| Nhóm | Tìm bằng | Đang ở | `geo_mode` |
+|---|---|---|---|
+| Khách quốc tế | English | nước họ | `Presence+Interest` |
+| Kiều bào | **Tiếng Việt** | nước họ | `Presence+Interest` |
+| **Expat** | English | **trong VN** | **`Presence`** |
+
+**Người Việt nói tiếng Anh cũng nằm trong dữ liệu tìm kiếm tiếng Anh** — không tách ra thì họ kéo
+CPL xuống trông rất đẹp mà **không ra ca quốc tế nào**.
+
+### Hai tầng chỉ số — luật mới, không được trộn
+
+| | Chỉ số sớm | Chỉ số thật |
+|---|---|---|
+| Nhịp đọc | Hằng ngày · hằng tuần | **Cohort ≥ 8 tuần** |
+| Gồm | Lượt xem · **thời gian trên trang** · tương tác · thoát | Tỷ lệ đặt cọc · số khách **đến khám** · **chi phí/khách đến khám** |
+| Nguồn | Google Analytics | Google Ads + CRM |
+| Dùng để | **Sửa trang, sửa mẫu quảng cáo** | **Quyết định ngân sách** |
+
+Hai chiều sai đều tốn tiền: quyết ngân sách bằng chỉ số sớm thì nuôi trang hỏng; chờ chỉ số thật
+mới sửa trang thì mất đứt 8 tuần. Ngưỡng cảnh báo: `averageSessionDuration` **< 45 giây → hero sai**.
+
+→ Đã ghi vào §7b của [`kn-chan-doan-chi-so-qt.md`](../knowledge/kn-chan-doan-chi-so-qt.md).
+
+### 🔴 Trạng thái kết nối dữ liệu — tra 21/10/2026
+
+Yêu cầu của gói này là *"số liệu LDP kết nối với Google Analytics và tài khoản Adword"*.
+Thực tế tra được:
+
+| Nguồn | Trạng thái | Ghi chú |
+|---|---|---|
+| **Google Analytics** — site quốc tế | ✅ **đã nối** | Property `417341092` = `kangnamaesthetichospital.com` |
+| Google Analytics — site nội địa | ✅ đã nối | Property `253218410` |
+| **Google Ads** | ❌ **chưa có tài khoản nào được nối** | **Không có bất kỳ chỉ số chi phí nào cho tới khi nối** |
+| Keyword Planner | ⚠️ đã xác thực | Chỉ dùng điền `volume` · `cpc` |
+| **Trình kéo số liệu (Supermetrics)** | 🔴 **trial hết hạn 24/07/2026** | **Chặn mọi truy vấn số liệu tự động** |
+
+**Nên công cụ báo cáo được làm dưới dạng khuôn khai đúng tên trường GA4, chưa phải dashboard
+chạy sống.** Bước 4 hiện làm tay: đọc số trên Analytics và Ads rồi điền vào khuôn §5.4. Khi nối
+lại được thì dùng ngay, không phải dựng lại.
+
+**Ba việc để tự động hoá:** ① gia hạn trình kéo số liệu · ② **nối tài khoản Google Ads** ·
+③ khai **ba thẻ CRM** `market` · `tier` · `stage` cho mọi lead **ngay từ đầu** — không gắn từ đầu
+thì 8 tuần sau không cắt được cohort. **Báo cáo thiếu cột `market` hoặc `cohort` là báo cáo
+không dùng được.**
+
+### Thay đổi file
+
+```
+knowledge/              9 → 10 file            (+ kn-quy-trinh-tuan-qt.md, 9.960 ký tự)
+SYSTEM-PROMPT.md       42.620 → 43.452 ký tự   (+ §2 bảng tri thức, + đoạn báo cáo tuần ở §15)
+SYSTEM-PROMPT-NGAN.md  7.979 ký tự             (không đổi — vẫn trong giới hạn 8.000)
+kn-cong-win-tu-khoa-qt.md                      (+ §8b ba nguồn từ khoá)
+kn-chan-doan-chi-so-qt.md                      (+ §7b hai tầng chỉ số)
+doc/02-cau-lenh.md                             (+ §6b năm câu lệnh vòng lặp tuần)
+doc/01-cai-dat.md · README.md                  (bảng tri thức, số file, số ký tự)
+```
+
+### Sửa một dòng cũ đã lỗi
+
+Bảng *"Điều Agent sẽ từ chối"* vẫn ghi **Q08 Dental bị chặn vì chưa chốt pháp nhân**. Pháp nhân đã
+chốt (Công ty TNHH BVTM Kangnam Sài Gòn, MST `0312155633`, giấy phép `287/BYT-GPHĐ`) và nha khoa
+vận hành dưới chính pháp nhân đó → **Q08 không còn bị chặn**, nhưng vẫn giữ hai điều kiện: bằng
+chứng hiện chỉ có ở TP.HCM, và **trang web không phải phụ lục phạm vi giấy phép**.
+
+---
+
 ## v1.1 — 21/10/2026 · Nạp bộ truy vấn GEO + 4 rào pháp lý còn thiếu
 
 Nguồn: **`HCI-Knowledge/GEOQUOCTE.xlsx`** (8 sheet, bản cập nhật 14/09/2026) → trích xuất thành [`knowledge/kn-truy-van-geo-qt.md`](../knowledge/kn-truy-van-geo-qt.md).

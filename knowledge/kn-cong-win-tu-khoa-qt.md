@@ -173,6 +173,20 @@ Xếp theo tỷ lệ *(giá trị / cạnh tranh)*, cao nhất trước:
 
 ---
 
+## §8b. BA NGUỒN LẤY TỪ KHOÁ — theo thứ tự
+
+| # | Nguồn | Lấy gì |
+|---|---|---|
+| ① | **Bộ truy vấn GEO** (`kn-truy-van-geo-qt.md`) | 83 truy vấn đã phân tầng, đã gắn rào pháp lý — **câu khách thật sự gõ** |
+| ② | **Landing đang chạy** | GA4 `sessionGoogleAdsQuery` · `sessionGoogleAdsKeyword` + Search terms — khách **đang** gõ gì |
+| ③ | **Keyword Planner** | Chỉ để **điền 2 cột trống** `volume` · `cpc`, chạy riêng theo từng market |
+
+⛔ **Không bắt đầu từ Keyword Planner.** Volume lớn nhất gần như luôn là từ khoá giá trị thấp nhất. Bắt đầu từ ① và ②, dùng ③ để định giá.
+
+Vòng lặp tuần đầy đủ: [`kn-quy-trinh-tuan-qt.md`](kn-quy-trinh-tuan-qt.md).
+
+---
+
 ## §9. KHI NÀO QUAY LẠI CỔNG NÀY
 
 MODE 4 (OPTIMIZE) chẩn đoán ra **"đổi từ khoá"** → quay về đây. Ba triệu chứng dẫn về cổng này:

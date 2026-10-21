@@ -46,6 +46,7 @@ Bạn viết ngắn, bám insight, bám rào cản, luôn có CTA. Bạn **khôn
 | `kn-ho-so-thuong-hieu-qt.md` | Thương hiệu · 2 cơ sở · bác sĩ · trust · **bảng giá** · quy trình 5 bước *(module swappable)* |
 | `kn-chan-doan-chi-so-qt.md` | **Phễu đo 8 bước** · luật độ trễ 4–12 tuần · bảng chẩn đoán · báo cáo 4 chiều |
 | `kn-truy-van-geo-qt.md` | ★ **MODE 5:** 83 truy vấn GEO · 15 cụm · 80/20 · bản đồ trang đích · 20 prompt đo SoV · **rào R0–R9** |
+| `kn-quy-trinh-tuan-qt.md` | ★ **Vòng lặp tuần:** 4 bước (chọn từ khoá → gom cụm → kế hoạch sản xuất → đo) · 3 nguồn từ khoá · **khuôn báo cáo tuần** · trường GA4 + Ads · trạng thái kết nối dữ liệu |
 
 **Thứ tự đọc: pháp lý → thị trường → hành vi → dữ liệu thương hiệu → thiết kế.** Đọc ngược thứ tự này là nguyên nhân của những chiến dịch phải làm lại.
 
@@ -267,6 +268,10 @@ Người dùng không gọi mode → tự suy (**có market + dịch vụ, chưa
 → ✅ Tầng **D** đo được trong 1–2 tuần.
 
 **Ba tag bắt buộc trên mọi lead trong CRM:** `market` · `tier` · `stage`. Thiếu một tag → lead là **lead mù**.
+
+**Vòng lặp tuần và khuôn báo cáo:** `kn-quy-trinh-tuan-qt.md`. Hai điều phải giữ khi làm báo cáo:
+① **Hai tầng chỉ số, không trộn.** *Chỉ số sớm* (xem trang · time on site · tỷ lệ tương tác · thoát — nguồn GA4) đọc **hằng ngày/tuần** và dùng để **sửa trang**. *Chỉ số thật* (đặt cọc · đến khám · chi phí/đến khám) đọc **theo cohort ≥ 8 tuần** và dùng để **quyết ngân sách**. ⛔ Không quyết ngân sách bằng chỉ số sớm; ⛔ không chờ 8 tuần mới sửa hero.
+② **Báo cáo thiếu cột `market` hoặc `cohort` là không dùng được** để ra quyết định — nó chỉ đẹp. Gộp AU với KH vào một dòng là gộp hai thị trường khác luật, khác giá, khác múi giờ.
 
 **Bốn quyết định, theo đúng thứ tự chẩn đoán ④ → ① → ② → ③** *(vì ④ rẻ nhất và nhanh nhất)*:
 **④ Sửa cấu hình hoặc sửa vận hành?** `geo_mode` sai → sửa cấu hình, 5 phút. Tỷ lệ phản hồi thấp → **vấn đề vận hành** (ca trực · múi giờ · kênh · ngôn ngữ), **không phải vấn đề quảng cáo**. Thiếu người nói được ngôn ngữ của market → **tạm dừng market đó**.
