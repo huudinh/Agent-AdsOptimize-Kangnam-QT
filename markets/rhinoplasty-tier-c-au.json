@@ -1,0 +1,439 @@
+{
+  "zone": {
+    "ten": "Rhinoplasty · Tier C · Úc (AU)",
+    "ma": "rhino-c-au",
+    "nganh": "Aesthetic · Medical tourism",
+    "ten_file": "KN-QT _ Google Ads _ Rhinoplasty Tier C AU",
+    "ds_phu_dinh_chung": "KNQT_Neg_Chung",
+    "ngan_sach_thang": 200000000,
+    "muc_tieu": "Ngân sách VND/tháng. Mục tiêu theo thứ tự: chi phí/khách ĐẾN KHÁM → tỷ lệ đặt cọc → tỷ lệ phản hồi được → CPL. Không đánh giá bằng CPL đơn lẻ.",
+    "markets": "AU (+ NZ ở Pha 2)",
+    "tang": "C · thị trường phát triển",
+    "ngon_ngu": "English",
+    "rui_ro_qc": "🔴 CAO — AHPRA cấm testimonial về kết quả lâm sàng; before–after ràng buộc chặt. Mọi creative chờ Pháp chế thị trường duyệt."
+  },
+
+  "chan_dung": [
+    {
+      "ma": "CD1",
+      "ten": "Nữ 30–50, Sydney/Melbourne/Brisbane, đã nhận báo giá tại Úc và thấy không trả được",
+      "insight": "\"Ở Úc báo tôi 20.000 đô. Tôi không có số tiền đó, nhưng tôi vẫn muốn làm.\" Họ không săn giá rẻ — họ đang tìm nơi đủ an toàn ở mức giá họ trả được. Vào phễu ở S2 (chọn nước), không ở S3.",
+      "rao_can": "SỢ — mổ ở nước ngoài có an toàn không, ai chịu trách nhiệm nếu hỏng",
+      "chang_vao": "S2-S3",
+      "chien_dich": "S2 Destination · S3 Safety",
+      "gia_tri_ca": "Rất cao"
+    },
+    {
+      "ma": "CD2",
+      "ten": "Nữ/nam 28–45, đã quyết định làm ở Việt Nam, đang tính lịch trình chuyến đi",
+      "insight": "\"Tôi xin nghỉ được 2 tuần. Như vậy có đủ không? Về nhà sưng thì ai theo dõi cho tôi?\" Đây là nhóm sẵn sàng nhất và được phục vụ tệ nhất — gần như không đối thủ nào có trang trả lời câu này.",
+      "rao_can": "XA — số ngày ở lại, ai lo sau khi bay về, chi phí vé nếu phải sửa lại",
+      "chang_vao": "S4",
+      "chien_dich": "S4 Trip planning",
+      "gia_tri_ca": "Rất cao"
+    },
+    {
+      "ma": "CD3",
+      "ten": "Nữ 25–40, đang so sánh Việt Nam với Thái Lan / Hàn Quốc / Thổ Nhĩ Kỳ",
+      "insight": "\"Thái thì nhiều người đi rồi, Hàn thì đắt. Việt Nam có đáng không?\" Họ chưa chọn bệnh viện — họ đang chọn NƯỚC. Đổ họ vào landing bán dịch vụ là mất họ ngay.",
+      "rao_can": "NGỜ — tiêu chuẩn y khoa của Việt Nam, bác sĩ đào tạo ở đâu",
+      "chang_vao": "S2",
+      "chien_dich": "S2 Destination",
+      "gia_tri_ca": "Cao"
+    },
+    {
+      "ma": "CD4",
+      "ten": "Khách đã phẫu thuật ở nơi khác và cần sửa lại (revision)",
+      "insight": "\"Tôi đã làm một lần và nó hỏng. Giờ tôi không tin ai nữa.\" Đã mất niềm tin vào cả ngành, cần bộ bằng chứng khác hẳn: hồ sơ bác sĩ ca khó, quy trình đánh giá lại. Trả được CPC cao nhất. ⛔ Không bán kết quả cho nhóm này — bán ĐÁNH GIÁ LẠI.",
+      "rao_can": "NGỜ — ở mức mất niềm tin, cần bằng chứng tay nghề cá nhân",
+      "chang_vao": "S3-S4",
+      "chien_dich": "S3 Revision",
+      "gia_tri_ca": "Rất cao"
+    },
+    {
+      "ma": "CD5",
+      "ten": "Expat đang sống và làm việc tại Hà Nội / TP.HCM",
+      "insight": "\"Tôi sống ở đây rồi. Tôi chỉ cần bác sĩ nói được tiếng Anh và một cuộc hẹn tuần này.\" Không có rào cản đi lại → đo được trong 1–2 tuần, khác hẳn tầng C. ⛔ Landing KHÔNG có khối đưa đón sân bay / khách sạn.",
+      "rao_can": "NGỜ — giao tiếp và tiêu chuẩn y khoa",
+      "chang_vao": "S5",
+      "chien_dich": "S5 Expat booking",
+      "gia_tri_ca": "Trung bình-Cao"
+    }
+  ],
+
+  "chien_dich": [
+    {
+      "ten": "KN-QT | C | AU | S2 | Destination & Comparison",
+      "uu_tien": "P2",
+      "vai_tro": "Hứng khách tầng C còn đang chọn NƯỚC. Nuôi phễu, không chốt ngay.",
+      "ty_trong": 0.18,
+      "diem": { "y_dinh": 2, "gia_tri": 5, "kha_nang_chot": 2 },
+      "bid": "Manual CPC, bid thấp. Chuyển Max clicks khi có đủ dữ liệu.",
+      "chi_tieu": "Không đấu top 1. Mục tiêu là impression share ở mức chi phí thấp."
+    },
+    {
+      "ten": "KN-QT | C | AU | S3 | Safety & Reassurance",
+      "uu_tien": "P1",
+      "vai_tro": "Gỡ rào cản SỢ của CD1. Chặng rụng khách, cạnh tranh thấp.",
+      "ty_trong": 0.14,
+      "diem": { "y_dinh": 3, "gia_tri": 5, "kha_nang_chot": 3 },
+      "bid": "Manual CPC → Max conversions sau khi có 30 lead.",
+      "chi_tieu": "Giữ tối thiểu 6 tuần trước khi phán xét."
+    },
+    {
+      "ten": "KN-QT | C | AU | S3 | Revision & Correction",
+      "uu_tien": "P1",
+      "vai_tro": "Ngách giá trị ca cao nhất. Giọng riêng: bán đánh giá lại, không bán kết quả.",
+      "ty_trong": 0.10,
+      "diem": { "y_dinh": 4, "gia_tri": 5, "kha_nang_chot": 3 },
+      "bid": "Manual CPC, cho phép bid cao hơn mức trung bình 30%.",
+      "chi_tieu": "Volume thấp là bình thường. Đo bằng giá trị ca, không bằng số lead."
+    },
+    {
+      "ten": "KN-QT | C | AU | S4 | Trip Planning",
+      "uu_tien": "P1",
+      "vai_tro": "★ Chặng quyết định của gói QT. Khách đã vượt Sợ+Ngờ, chỉ còn rào cản XA.",
+      "ty_trong": 0.24,
+      "diem": { "y_dinh": 5, "gia_tri": 5, "kha_nang_chot": 4 },
+      "bid": "Manual CPC. Cạnh tranh gần bằng 0 → CPC thấp, đừng tự đẩy bid lên.",
+      "chi_tieu": "Mục tiêu impression share cao — gần như không đối thủ nào ở đây."
+    },
+    {
+      "ten": "KN-QT | C | AU | S5 | Price & Booking",
+      "uu_tien": "P1",
+      "vai_tro": "Chốt. Đắt nhất trong các chặng — không dồn hết ngân sách vào đây.",
+      "ty_trong": 0.20,
+      "diem": { "y_dinh": 5, "gia_tri": 5, "kha_nang_chot": 4 },
+      "bid": "Max conversions khi đã import được chuyển đổi đặt cọc.",
+      "chi_tieu": "Theo chi phí/khách đến khám, không theo CPL."
+    },
+    {
+      "ten": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking",
+      "uu_tien": "P2",
+      "vai_tro": "Tầng D. Tách hẳn vì geo_mode phải là Presence, và landing không có khối du lịch.",
+      "ty_trong": 0.14,
+      "diem": { "y_dinh": 5, "gia_tri": 3, "kha_nang_chot": 4 },
+      "bid": "Max conversions — độ trễ ngắn nên tối ưu được nhanh.",
+      "chi_tieu": "Đo được trong 1–2 tuần, khác hẳn tầng C."
+    }
+  ],
+
+  "cap_uu_tien": [
+    { "cap": "P1", "quy_tac": "Bật trước, ngân sách ưu tiên, theo dõi hằng tuần theo cohort." },
+    { "cap": "P2", "quy_tac": "Bật sau khi P1 có dữ liệu đặt cọc. Bid thấp, chống tràn ngân sách." },
+    { "cap": "P3", "quy_tac": "Chỉ hứng volume. Không sản xuất nội dung riêng. Cắt nếu CPC vượt ngưỡng 2 tuần liền." }
+  ],
+
+  "phieu": {
+    "cpc": 45000,
+    "click_lead": 0.025,
+    "lead_lich": 0.08,
+    "show_up": 0.85,
+    "chot": 0.7,
+    "gia_tri_ca": 60000000,
+    "ghi_chu": {
+      "cpc": "GIẢ ĐỊNH — thay bằng số thực từ Keyword Planner chạy RIÊNG cho market AU.",
+      "click_lead": "GIẢ ĐỊNH. Tầng C thường thấp hơn nội địa vì trang dài và cần đọc nhiều.",
+      "lead_lich": "GIẢ ĐỊNH. Đây là tỷ lệ lead → ĐẶT CỌC, đã tính cả khâu phản hồi được. Thấp là bình thường ở du lịch y tế.",
+      "show_up": "Khách đã đặt cọc + đã mua vé thì gần như luôn đến. Đây là lý do đặt cọc là điểm chuyển trạng thái thật.",
+      "chot": "GIẢ ĐỊNH — thay bằng số thực từ CRM.",
+      "gia_tri_ca": "GIẢ ĐỊNH theo nhóm rhinoplasty cao cấp. Nhớ cộng phụ phí quốc tế 10%."
+    }
+  },
+
+  "nguyen_tac": [
+    "Mọi dòng từ khoá phải khai market (người gõ ĐANG Ở ĐÂU) và geo_mode. Thiếu một trong hai thì không chạy.",
+    "Tầng D (VN-EXPAT) bắt buộc geo_mode=Presence. Dùng Presence+Interest ở đây sẽ hút toàn bộ traffic du lịch y tế vào landing sai, và lỗi này im lặng.",
+    "Chỉ Exact/Phrase. Không Broad cho tới khi đã import được chuyển đổi offline (đặt cọc / đến khám).",
+    "Để trống cột volume và cpc — lấy từ Keyword Planner, chạy RIÊNG cho từng market.",
+    "Thị trường AU rủi ro cao: landing và ad KHÔNG dùng before–after, KHÔNG dùng testimonial về kết quả lâm sàng. Chỉ dùng testimonial về trải nghiệm phi lâm sàng.",
+    "Số ngày ở lại Việt Nam là mốc y khoa — không ai trong team marketing được tự suy. Chưa có số từ Khoa Chuyên môn thì để [PENDING] trên trang.",
+    "Mọi bảng giá kèm đủ 3 dòng: chưa gồm phụ phí quốc tế 10% · USD là tỷ giá tham chiếu · giá cuối do bác sĩ chốt sau khám.",
+    "Không so sánh giá với quốc gia hoặc cơ sở CÓ TÊN. Công bố bảng giá đầy đủ và để khách tự so.",
+    "Độ trễ lead → đến khám là 4–12 tuần. Không kết luận hiệu quả cuối của chiến dịch tầng C trong cửa sổ dưới 8 tuần. So theo cohort theo tháng nhận lead.",
+    "Mọi lead về CRM phải có đủ 3 tag: market · tier · stage. Thiếu một tag là lead mù.",
+    "Đánh giá chiến dịch bằng chi phí/khách ĐẾN KHÁM, không bằng CPL. So CPL giữa hai market là so hai thứ khác nhau."
+  ],
+
+  "landing": [
+    {
+      "ma_ten": "LP1: Why Vietnam — destination comparison",
+      "loai": "L1 - Destination",
+      "chang": "S2",
+      "chan_dung": "CD1, CD3",
+      "rao_can": "NGỜ — tiêu chuẩn y khoa của Việt Nam",
+      "noi_dung": "Trả lời câu hỏi về VIỆT NAM trước, Kangnam sau: giấy phép Bộ Y tế · bác sĩ đào tạo ở đâu · tiêu chuẩn bệnh viện · bảng giá công khai · logistics. ⛔ Không bán dịch vụ ở trang này. ⛔ Không hạ thấp Thái Lan / Hàn Quốc — nêu tiêu chí khách quan, để khách tự so.",
+      "cta": "Nhận bảng giá đầy đủ qua email",
+      "micro": "Tải cẩm nang điểm đến (PDF)"
+    },
+    {
+      "ma_ten": "LP2: Is surgery in Vietnam safe — answered",
+      "loai": "L2 - Answer-first",
+      "chang": "S3",
+      "chan_dung": "CD1",
+      "rao_can": "SỢ — mổ ở nước ngoài",
+      "noi_dung": "Hero gọi đúng nỗi lo rồi TRẢ LỜI NGAY. Bằng chứng: giấy phép 194 hoặc 287/BYT-GPHĐ · hồ sơ bác sĩ · quy trình mổ có văn bản · phòng mổ vô khuẩn · hội đồng chuyên môn. ⛔ Không khoét sâu biến chứng. ⛔ AU: không before–after, không testimonial kết quả.",
+      "cta": "Chat WhatsApp với bộ phận quốc tế",
+      "micro": "Gửi ảnh nhận đánh giá sơ bộ (bác sĩ thực hiện)"
+    },
+    {
+      "ma_ten": "LP3: Plan your trip — days, interpreter, aftercare",
+      "loai": "L3 - Trip-plan",
+      "chang": "S4",
+      "chan_dung": "CD2",
+      "rao_can": "XA — số ngày ở lại và ai lo sau khi bay về",
+      "noi_dung": "★ Trang quan trọng nhất của bộ này. Bắt buộc có khối B08 (quy trình 5 bước + SỐ NGÀY Ở LẠI) và B09 (ai liên hệ sau khi về nước, kênh gì, trong bao lâu, T&C bảo hành). Chưa có số ngày → [PENDING: minimum stay — Medical Dept], không bịa. Mẫu dựng sẵn: template/lp-skeleton-en.html",
+      "cta": "Nhận lịch trình chuyến đi theo ngày bay của bạn",
+      "micro": "Tải cẩm nang chuyến đi"
+    },
+    {
+      "ma_ten": "LP4: Rhinoplasty price list & booking",
+      "loai": "L4 - Price & Book",
+      "chang": "S5",
+      "chan_dung": "CD1, CD2",
+      "rao_can": "NGẠI — chi phí",
+      "noi_dung": "Bảng giá đầy đủ + 3 dòng bắt buộc (phụ phí 10% · USD tham chiếu · giá cuối do bác sĩ chốt) + cột gồm gì / không gồm gì. Lấy giá tại /price-list/ ở thời điểm chạy.",
+      "cta": "Đặt lịch tư vấn",
+      "micro": "Chọn dịch vụ quan tâm (bottom sheet)"
+    },
+    {
+      "ma_ten": "LP5: Revision rhinoplasty — start with an assessment",
+      "loai": "L2 - Answer-first",
+      "chang": "S3",
+      "chan_dung": "CD4",
+      "rao_can": "NGỜ — mất niềm tin vào cả ngành",
+      "noi_dung": "Giọng khác hẳn: không bán kết quả, bán ĐÁNH GIÁ LẠI. Bằng chứng: hồ sơ bác sĩ ca khó · quy trình đánh giá lại · chính sách cho trường hợp phức tạp. ⛔ Không hứa sửa được trước khi khám.",
+      "cta": "Nhận đánh giá lại từ bác sĩ chuyên khoa",
+      "micro": "Gửi ảnh + hồ sơ ca cũ (luồng riêng, có thông báo dữ liệu riêng)"
+    },
+    {
+      "ma_ten": "LP6: English-speaking plastic surgeon in Hanoi / HCMC",
+      "loai": "L5 - Expat",
+      "chang": "S5",
+      "chan_dung": "CD5",
+      "rao_can": "NGỜ — giao tiếp",
+      "noi_dung": "Địa chỉ · giờ mở cửa · bác sĩ nói được tiếng Anh · đặt khám tuần này. ⛔ KHÔNG có khối đưa đón sân bay, KHÔNG có khối khách sạn, KHÔNG có khối số ngày ở lại — khách đang sống ở đây.",
+      "cta": "Đặt khám tuần này",
+      "micro": "Chọn cơ sở gần bạn"
+    }
+  ],
+
+  "hanh_trinh": [
+    {
+      "chang": "S1 NHẬN BIẾT",
+      "chan_dung": "—",
+      "tam_ly": "Chưa nghĩ tới việc ra nước ngoài phẫu thuật. Tò mò về thủ thuật.",
+      "rao_can": "—",
+      "chien_dich": "Không chạy Search chốt",
+      "tu_khoa": "what is rhinoplasty · types of nose surgery",
+      "thong_diep": "Giáo dục nhẹ, chưa bán",
+      "bang_chung": "—",
+      "lp": "—",
+      "chuyen_doi": "—",
+      "sau_lead": "—",
+      "kpi": "—",
+      "tiep_theo": "Nuôi bằng content/SEO, không bằng Search ads"
+    },
+    {
+      "chang": "S2 SO SÁNH ĐIỂM ĐẾN",
+      "chan_dung": "CD1, CD3",
+      "tam_ly": "Đang chọn NƯỚC, chưa chọn bệnh viện. So Việt Nam với Thái / Hàn / Thổ.",
+      "rao_can": "NGỜ — tiêu chuẩn y khoa của Việt Nam",
+      "chien_dich": "KN-QT | C | AU | S2 | Destination & Comparison",
+      "tu_khoa": "plastic surgery in vietnam · vietnam vs thailand plastic surgery · is vietnam good for plastic surgery",
+      "thong_diep": "Trả lời về Việt Nam trước, Kangnam sau. Tiêu chí khách quan.",
+      "bang_chung": "Giấy phép Bộ Y tế · bác sĩ đào tạo tại Hàn · tiêu chuẩn bệnh viện · bảng giá công khai",
+      "lp": "LP1",
+      "chuyen_doi": "Tải cẩm nang điểm đến · nhận bảng giá qua email",
+      "sau_lead": "Chuỗi email 3 bước về an toàn và logistics, không bán ngay",
+      "kpi": "Tỷ lệ tải cẩm nang · chi phí/lead cẩm nang",
+      "tiep_theo": "Remarketing sang LP2 (an toàn) và LP3 (chuyến đi)"
+    },
+    {
+      "chang": "S3 CÂN NHẮC & NỖI SỢ",
+      "chan_dung": "CD1, CD4",
+      "tam_ly": "Đã chọn Việt Nam, đang sợ. Đọc review, tìm ca hỏng.",
+      "rao_can": "SỢ — biến chứng, trách nhiệm khi ở nước ngoài",
+      "chien_dich": "KN-QT | C | AU | S3 | Safety & Reassurance · KN-QT | C | AU | S3 | Revision & Correction",
+      "tu_khoa": "is plastic surgery in vietnam safe · rhinoplasty vietnam reviews · revision rhinoplasty vietnam",
+      "thong_diep": "Gọi đúng nỗi lo rồi trả lời ngay. Không khoét sâu.",
+      "bang_chung": "Giấy phép 194/287 BYT-GPHĐ · hồ sơ bác sĩ · quy trình mổ có văn bản · phòng mổ vô khuẩn · hội đồng chuyên môn",
+      "lp": "LP2, LP5",
+      "chuyen_doi": "Chat WhatsApp · gửi ảnh nhận đánh giá sơ bộ",
+      "sau_lead": "Bộ phận quốc tế phản hồi theo múi giờ khách đã khai; gắn tag market+tier+stage",
+      "kpi": "Tỷ lệ phản hồi được · tỷ lệ gửi ảnh",
+      "tiep_theo": "Đẩy sang LP3 — khách hết sợ thì câu hỏi tiếp theo là chuyến đi"
+    },
+    {
+      "chang": "S4 LÊN KẾ HOẠCH CHUYẾN ĐI ★",
+      "chan_dung": "CD2",
+      "tam_ly": "Đã muốn làm. Đang tính chuyến đi có chạy được không: xin nghỉ, vé, ai lo sau khi về.",
+      "rao_can": "XA — số ngày ở lại, ai lo sau khi bay về, vé nếu phải sửa lại",
+      "chien_dich": "KN-QT | C | AU | S4 | Trip Planning",
+      "tu_khoa": "how many days in vietnam after rhinoplasty · when can i fly after nose surgery · english speaking plastic surgeon hanoi",
+      "thong_diep": "Số ngày cụ thể · phiên dịch tiếp tục sau khi về · đưa đón · ai liên hệ trong bao lâu",
+      "bang_chung": "Quy trình 5 bước cho khách ở xa · International Patient Department · T&C bảo hành · lịch tái khám từ xa",
+      "lp": "LP3",
+      "chuyen_doi": "Tải cẩm nang chuyến đi · chat WhatsApp · yêu cầu lịch trình theo ngày bay",
+      "sau_lead": "Gửi lịch trình theo ngày khách dự kiến bay; xác nhận số ngày ở lại với Khoa Chuyên môn",
+      "kpi": "Tỷ lệ tải cẩm nang · tỷ lệ chuyển sang đặt cọc",
+      "tiep_theo": "Báo giá + yêu cầu đặt cọc → S5"
+    },
+    {
+      "chang": "S5 THỰC HIỆN",
+      "chan_dung": "CD1, CD2, CD5",
+      "tam_ly": "Sẵn sàng. Cần con số cuối và cách đặt lịch.",
+      "rao_can": "NGẠI — chi phí, sợ phát sinh",
+      "chien_dich": "KN-QT | C | AU | S5 | Price & Booking · KN-QT | D | VN-EXPAT | S5 | English-speaking booking",
+      "tu_khoa": "rhinoplasty cost vietnam · nose job price vietnam · book consultation plastic surgery vietnam",
+      "thong_diep": "Bảng giá công khai + phụ phí 10% nói trước + gồm gì / không gồm gì",
+      "bang_chung": "Bảng giá tại /price-list/ · giá cuối do bác sĩ chốt sau khám",
+      "lp": "LP4, LP6",
+      "chuyen_doi": "Đặt lịch tư vấn · yêu cầu báo giá bằng văn bản · ĐẶT CỌC",
+      "sau_lead": "Báo giá văn bản trong 24 giờ làm việc; nhắc theo mốc cho tới khi đặt cọc",
+      "kpi": "Tỷ lệ đặt cọc · chi phí/khách đến khám",
+      "tiep_theo": "Luồng nurture sau đặt cọc: giấy tờ, nhắc mốc, chuẩn bị trước mổ"
+    },
+    {
+      "chang": "S6 HẬU PHẪU TỪ XA",
+      "chan_dung": "Khách đã mổ, đã về nước",
+      "tam_ly": "Đang ở nước mình, lệch múi giờ, lo lắng. Sẽ google thay vì chờ phiên dịch trả lời.",
+      "rao_can": "XA",
+      "chien_dich": "Không chạy ads chốt",
+      "tu_khoa": "swelling after rhinoplasty week 3 · rhinoplasty aftercare tips",
+      "thong_diep": "Hướng dẫn + trấn an + mốc tái khám từ xa",
+      "bang_chung": "Hướng dẫn hậu phẫu tiếng Anh · lịch tái khám · kênh liên hệ",
+      "lp": "Trang hướng dẫn hậu phẫu (không chạy ads)",
+      "chuyen_doi": "Mở trang hướng dẫn từ tin nhắn WhatsApp",
+      "sau_lead": "Phiên dịch chủ động nhắc theo mốc tuần 1 / tuần 3 / tháng 3",
+      "kpi": "Tỷ lệ hoàn thành tái khám từ xa · điểm hài lòng",
+      "tiep_theo": "Đây là tài sản giữ review tốt, và là nguồn của S7"
+    },
+    {
+      "chang": "S7 GẮN BÓ & GIỚI THIỆU",
+      "chan_dung": "Khách hài lòng",
+      "tam_ly": "Hài lòng, sẵn sàng kể lại và quay lại cho dịch vụ khác",
+      "rao_can": "—",
+      "chien_dich": "Remarketing · email",
+      "tu_khoa": "other procedures · second trip vietnam",
+      "thong_diep": "Dịch vụ tiếp theo trong cùng chuyến sau · ưu đãi khách cũ",
+      "bang_chung": "Lịch sử điều trị · quan hệ với phiên dịch",
+      "lp": "LP4 cho dịch vụ mới",
+      "chuyen_doi": "Đặt lịch dịch vụ thứ hai · giới thiệu người quen",
+      "sau_lead": "Xin testimonial PHI LÂM SÀNG (phiên dịch, đưa đón, nhân viên) — AU không dùng được testimonial kết quả",
+      "kpi": "Tỷ lệ quay lại · số lượt giới thiệu",
+      "tiep_theo": "Đưa testimonial phi lâm sàng vào LP1/LP3"
+    }
+  ],
+
+  "tu_khoa": [
+    { "chien_dich": "KN-QT | C | AU | S2 | Destination & Comparison", "nhom_qc": "Destination - Vietnam", "tu_khoa": "plastic surgery in vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S2", "chan_dung": "CD3", "rao_can": "NGỜ", "canh_tranh": "Cao", "win": "2/4", "lp": "LP1", "thong_diep": "Licensed hospitals, published prices. See what to check before you choose a country.", "ghi_chu": "Từ khoá đầu ngành, chỉ hứng volume. AHPRA: landing LP1 không dùng before-after, không testimonial kết quả. Cắt nếu CPC vượt ngưỡng 2 tuần liền." },
+    { "chien_dich": "KN-QT | C | AU | S2 | Destination & Comparison", "nhom_qc": "Destination - Comparison", "tu_khoa": "vietnam vs thailand plastic surgery", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S2", "chan_dung": "CD3", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP1", "thong_diep": "Compare on the things that matter: licence, surgeon training, aftercare. Full price list published.", "ghi_chu": "Giữ lại vì có 'vs' = đang so sánh, chưa quyết. Không hạ thấp Thái Lan. Chỉ dùng testimonial phi lâm sàng (AHPRA)." },
+    { "chien_dich": "KN-QT | C | AU | S2 | Destination & Comparison", "nhom_qc": "Destination - Comparison", "tu_khoa": "cheaper than korea plastic surgery", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P3", "chang": "S2", "chan_dung": "CD3", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP1", "thong_diep": "Our full price list is published. Compare it yourself.", "ghi_chu": "Có 'cheaper than' = đang so sánh → giữ. ⛔ Nội dung KHÔNG được viết 'cheaper than Korea' - đó là so sánh với quốc gia có tên. Chỉ công bố bảng giá. Landing non-clinical proof only (AHPRA)." },
+    { "chien_dich": "KN-QT | C | AU | S2 | Destination & Comparison", "nhom_qc": "Destination - Standards", "tu_khoa": "is vietnam good for plastic surgery", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S2", "chan_dung": "CD3", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP1", "thong_diep": "What to check: Ministry of Health licence, surgeon credentials, written aftercare.", "ghi_chu": "AHPRA: no testimonial về kết quả. Trụ bằng chứng là giấy phép + hồ sơ bác sĩ + quy trình." },
+
+    { "chien_dich": "KN-QT | C | AU | S3 | Safety & Reassurance", "nhom_qc": "Safety - Core", "tu_khoa": "is plastic surgery in vietnam safe", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S3", "chan_dung": "CD1", "rao_can": "SỢ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP2", "thong_diep": "Answered on the page: MOH licence, surgeon credentials, sterile theatre, written protocol.", "ghi_chu": "Hero gọi nỗi lo rồi trả lời NGAY, không khoét sâu. AHPRA: landing không before-after, không testimonial kết quả lâm sàng." },
+    { "chien_dich": "KN-QT | C | AU | S3 | Safety & Reassurance", "nhom_qc": "Safety - Core", "tu_khoa": "rhinoplasty vietnam safe", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S3", "chan_dung": "CD1", "rao_can": "SỢ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP2", "thong_diep": "Operated by a surgeon with 20+ years. Sterile theatre, documented protocol.", "ghi_chu": "AHPRA: non-clinical proof only. Chờ Pháp chế thị trường duyệt creative." },
+    { "chien_dich": "KN-QT | C | AU | S3 | Safety & Reassurance", "nhom_qc": "Safety - Reviews", "tu_khoa": "rhinoplasty vietnam reviews", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S3", "chan_dung": "CD1", "rao_can": "SỢ", "canh_tranh": "Trung bình", "win": "3/4", "lp": "LP2", "thong_diep": "What we can show you: licence, credentials, written aftercare policy.", "ghi_chu": "⚠️ Từ khoá review nhưng market AU KHÔNG dùng được testimonial kết quả lâm sàng (AHPRA). Landing trả lời bằng giấy phép + hồ sơ bác sĩ + testimonial phi lâm sàng." },
+    { "chien_dich": "KN-QT | C | AU | S3 | Safety & Reassurance", "nhom_qc": "Safety - Risk", "tu_khoa": "rhinoplasty abroad risks", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S3", "chan_dung": "CD1", "rao_can": "SỢ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP2", "thong_diep": "The real question is aftercare. Here is ours, in writing.", "ghi_chu": "Không khoét sâu biến chứng - rủi ro tuân thủ. Chuyển sang nói về aftercare. AHPRA: no outcome testimonial." },
+
+    { "chien_dich": "KN-QT | C | AU | S3 | Revision & Correction", "nhom_qc": "Revision - Core", "tu_khoa": "revision rhinoplasty vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S3", "chan_dung": "CD4", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP5", "thong_diep": "Previous surgery did not go well? Start with an assessment, not a promise.", "ghi_chu": "Giá trị ca cao nhất. ⛔ Không hứa sửa được trước khi khám. AHPRA: no before-after, non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S3 | Revision & Correction", "nhom_qc": "Revision - Core", "tu_khoa": "fix bad nose job abroad", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S3", "chan_dung": "CD4", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP5", "thong_diep": "An assessment first: what can and cannot be corrected, in writing.", "ghi_chu": "Nhóm đã mất niềm tin → bán đánh giá lại. AHPRA: no outcome testimonial, no before-after." },
+    { "chien_dich": "KN-QT | C | AU | S3 | Revision & Correction", "nhom_qc": "Revision - Core", "tu_khoa": "secondary rhinoplasty specialist vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S3", "chan_dung": "CD4", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP5", "thong_diep": "Complex and secondary cases: surgeon profile and assessment process.", "ghi_chu": "Cần hồ sơ bác sĩ ca khó. AHPRA: non-clinical proof only. Chờ Pháp chế duyệt." },
+
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Stay length", "tu_khoa": "how many days in vietnam after rhinoplasty", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP3", "thong_diep": "Minimum stay, set by medical milestones. Interpreter from arrival to flight home.", "ghi_chu": "★ Ngách tốt nhất của cả bộ, cạnh tranh gần bằng 0. ⛔ Số ngày phải lấy từ Khoa Chuyên môn, chưa có thì để [PENDING] trên trang. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Stay length", "tu_khoa": "how long to stay in vietnam for plastic surgery", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP3", "thong_diep": "The stay is set by suture removal and your final check-up, not by convenience.", "ghi_chu": "★ Không bịa số ngày. AHPRA: no outcome testimonial." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Flying", "tu_khoa": "when can i fly after rhinoplasty", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP3", "thong_diep": "Your surgeon clears you to fly. Here is how the timing works.", "ghi_chu": "★ Mốc y khoa - bay quá sớm là rủi ro thật. Chỉ nêu khi có số từ Khoa Chuyên môn. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Aftercare", "tu_khoa": "aftercare after plastic surgery abroad", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP3", "thong_diep": "Who you contact once you are home, on which channel, for how long.", "ghi_chu": "★ Trả lời câu 2 của rào cản XA. Cần [PENDING: thời hạn + kênh - International Dept]. AHPRA: no outcome claims." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Interpreter", "tu_khoa": "english speaking plastic surgeon vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP3", "thong_diep": "Interpreter support before, during and after your trip.", "ghi_chu": "★ CẨN TRỌNG CỔNG GEO: cùng chuỗi này gõ từ trong VN là tầng D - xem dòng VN-EXPAT. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Logistics", "tu_khoa": "airport pickup hospital vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P2", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP3", "thong_diep": "Airport pick-up and hotel recommendation arranged with your dates.", "ghi_chu": "★ Cần [PENDING: miễn phí hay tính phí - International Dept]. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S4 | Trip Planning", "nhom_qc": "Trip - Visa", "tu_khoa": "medical visa vietnam surgery", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P3", "chang": "S4", "chan_dung": "CD2", "rao_can": "XA", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP3", "thong_diep": "What paperwork you need before you book.", "ghi_chu": "⛔ KHÔNG hứa visa hay thư mời khi chưa có xác nhận - [PENDING: visa support - International Dept]. AHPRA: non-clinical proof only." },
+
+    { "chien_dich": "KN-QT | C | AU | S5 | Price & Booking", "nhom_qc": "Price - Rhinoplasty", "tu_khoa": "rhinoplasty cost vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S5", "chan_dung": "CD1", "rao_can": "NGẠI", "canh_tranh": "Cao", "win": "3/4", "lp": "LP4", "thong_diep": "Published price list. 10% international service charge applies.", "ghi_chu": "⛔ Luôn kèm 3 dòng bắt buộc của bảng giá. Bỏ phụ phí 10% là bom niềm tin ở quầy thanh toán. AHPRA: no before-after, non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S5 | Price & Booking", "nhom_qc": "Price - Rhinoplasty", "tu_khoa": "nose job price vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S5", "chan_dung": "CD1", "rao_can": "NGẠI", "canh_tranh": "Cao", "win": "3/4", "lp": "LP4", "thong_diep": "Full list published. Final cost confirmed by the doctor after examination.", "ghi_chu": "Lấy giá tại /price-list/ ở thời điểm chạy. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S5 | Price & Booking", "nhom_qc": "Price - Package", "tu_khoa": "rhinoplasty package vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S5", "chan_dung": "CD2", "rao_can": "NGẠI", "canh_tranh": "Trung bình", "win": "4/4", "lp": "LP4", "thong_diep": "What the package includes, and what it does not.", "ghi_chu": "Cột gồm gì / không gồm gì là bắt buộc. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S5 | Price & Booking", "nhom_qc": "Price - Rib cartilage", "tu_khoa": "rib cartilage rhinoplasty cost vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S5", "chan_dung": "CD1", "rao_can": "NGẠI", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP4", "thong_diep": "Rib cartilage rhinoplasty: published price, what it includes.", "ghi_chu": "Giá trị ca cao nhất trong nhóm mũi. AHPRA: non-clinical proof only." },
+    { "chien_dich": "KN-QT | C | AU | S5 | Price & Booking", "nhom_qc": "Booking", "tu_khoa": "book consultation plastic surgery vietnam", "khop": "Phrase", "market": "AU", "geo_mode": "Presence+Interest", "uu_tien": "P1", "chang": "S5", "chan_dung": "CD2", "rao_can": "NGẠI", "canh_tranh": "Thấp", "win": "4/4", "lp": "LP4", "thong_diep": "Book a consultation. We work around your time zone.", "ghi_chu": "Form bắt buộc có preferred contact time + time zone. AHPRA: non-clinical proof only." },
+
+    { "chien_dich": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking", "nhom_qc": "Expat - Hanoi", "tu_khoa": "english speaking plastic surgeon hanoi", "khop": "Phrase", "market": "VN-EXPAT", "geo_mode": "Presence", "uu_tien": "P2", "chang": "S5", "chan_dung": "CD5", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP6", "thong_diep": "English-speaking specialists in Hanoi. Appointments this week.", "ghi_chu": "★ CỔNG GEO: geo_mode=Presence BẮT BUỘC. Cùng chuỗi ký tự này ở market AU là người sắp bay sang → LP3. Dùng Presence+Interest ở đây sẽ hút traffic du lịch y tế vào LP6 (không có khối du lịch) và lỗi im lặng. Market VN-EXPAT không thuộc nhóm rủi ro cao nhưng vẫn chờ Pháp chế VN duyệt." },
+    { "chien_dich": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking", "nhom_qc": "Expat - HCMC", "tu_khoa": "english speaking plastic surgeon ho chi minh", "khop": "Phrase", "market": "VN-EXPAT", "geo_mode": "Presence", "uu_tien": "P2", "chang": "S5", "chan_dung": "CD5", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP6", "thong_diep": "English-speaking specialists in Ho Chi Minh City. Appointments this week.", "ghi_chu": "★ geo_mode=Presence bắt buộc. LP6 không có khối đưa đón/khách sạn. Chờ Pháp chế VN duyệt." },
+    { "chien_dich": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking", "nhom_qc": "Expat - Clinic", "tu_khoa": "aesthetic clinic for foreigners hanoi", "khop": "Phrase", "market": "VN-EXPAT", "geo_mode": "Presence", "uu_tien": "P3", "chang": "S5", "chan_dung": "CD5", "rao_can": "NGỜ", "canh_tranh": "Thấp", "win": "3/4", "lp": "LP6", "thong_diep": "Licensed hospital, English-speaking staff, published prices.", "ghi_chu": "★ geo_mode=Presence. Tầng D là nhóm duy nhất bán được dịch vụ da/clinic đơn lẻ. Chờ Pháp chế VN duyệt." }
+  ],
+
+  "phu_dinh_chung": [
+    { "nhom": "Điểm đến khác", "tu": "korea", "khop": "Phrase", "ap_dung": "Toàn tài khoản", "ly_do": "Người tìm muốn đi Hàn. ⚠️ Nhớ miễn trừ cho nhóm so sánh ('vs korea', 'cheaper than korea') - xem phủ định chéo." },
+    { "nhom": "Điểm đến khác", "tu": "thailand", "khop": "Phrase", "ap_dung": "Toàn tài khoản", "ly_do": "Như trên, miễn trừ nhóm so sánh." },
+    { "nhom": "Điểm đến khác", "tu": "turkey", "khop": "Phrase", "ap_dung": "Toàn tài khoản", "ly_do": "Như trên." },
+    { "nhom": "Điểm đến khác", "tu": "istanbul", "khop": "Phrase", "ap_dung": "Toàn tài khoản", "ly_do": "Như trên." },
+    { "nhom": "Miễn phí", "tu": "free", "khop": "Broad", "ap_dung": "Toàn tài khoản", "ly_do": "Không có dịch vụ miễn phí ngoài buổi tư vấn." },
+    { "nhom": "Việc làm", "tu": "jobs", "khop": "Broad", "ap_dung": "Toàn tài khoản", "ly_do": "Người tìm việc, không phải khách." },
+    { "nhom": "Việc làm", "tu": "salary", "khop": "Broad", "ap_dung": "Toàn tài khoản", "ly_do": "Như trên." },
+    { "nhom": "Đào tạo", "tu": "course", "khop": "Broad", "ap_dung": "Toàn tài khoản", "ly_do": "Người học nghề." },
+    { "nhom": "Đào tạo", "tu": "training", "khop": "Broad", "ap_dung": "Toàn tài khoản", "ly_do": "Như trên." },
+    { "nhom": "Bảo hiểm", "tu": "insurance covered", "khop": "Phrase", "ap_dung": "Toàn tài khoản", "ly_do": "Thẩm mỹ không được bảo hiểm chi trả - lead sai kỳ vọng." },
+    { "nhom": "Hình ảnh", "tu": "before and after photos", "khop": "Phrase", "ap_dung": "Chiến dịch tầng C", "ly_do": "AHPRA ràng buộc chặt before-after. Không đổ traffic này vào trang không có before-after." }
+  ],
+
+  "phu_dinh_cheo": [
+    { "nhom": "S2 → không lấy truy vấn giá", "tu": "cost", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S2 | Destination & Comparison", "ly_do": "Truy vấn giá thuộc S5 và cần LP4. Để S2 hứng là đổ người sẵn sàng mua vào trang giáo dục." },
+    { "nhom": "S2 → không lấy truy vấn giá", "tu": "price", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S2 | Destination & Comparison", "ly_do": "Như trên." },
+    { "nhom": "S5 → không lấy truy vấn kế hoạch", "tu": "how many days", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S5 | Price & Booking", "ly_do": "Truy vấn kế hoạch thuộc S4 và cần LP3. Landing giá không trả lời được câu này." },
+    { "nhom": "S5 → không lấy truy vấn kế hoạch", "tu": "interpreter", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S5 | Price & Booking", "ly_do": "Như trên - điều hướng về S4." },
+    { "nhom": "S3 → không lấy truy vấn sửa lại", "tu": "revision", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S3 | Safety & Reassurance", "ly_do": "Khách sửa lại là chân dung CD4, cần LP5 và giọng khác hẳn. Điều hướng, không loại." },
+    { "nhom": "Tầng C → không lấy truy vấn expat", "tu": "in hanoi", "khop": "Phrase", "ap_dung": "KN-QT | C | AU | S4 | Trip Planning", "ly_do": "⚠️ Cổng GEO. Chủ yếu xử lý bằng geo_mode, nhưng thêm phủ định chéo để chắc: truy vấn dạng 'in hanoi' từ IP Úc vẫn là tầng C, còn từ IP Việt Nam phải sang chiến dịch VN-EXPAT." },
+    { "nhom": "Tầng D → không lấy truy vấn du lịch y tế", "tu": "medical tourism", "khop": "Phrase", "ap_dung": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking", "ly_do": "⚠️ Cổng GEO ngược chiều: expat đang sống ở VN không phải khách du lịch y tế. LP6 không có khối du lịch." },
+    { "nhom": "Tầng D → không lấy truy vấn du lịch y tế", "tu": "fly to vietnam", "khop": "Phrase", "ap_dung": "KN-QT | D | VN-EXPAT | S5 | English-speaking booking", "ly_do": "Như trên." }
+  ],
+
+  "quy_trinh_phu_dinh": [
+    "Tần suất: rà search terms 2 lần/tuần ở Pha 1, 1 lần/tuần từ Pha 2.",
+    "Trước khi thêm một phủ định, hỏi: truy vấn này thuộc chân dung nào, chặng nào, MARKET nào? Có chân dung phù hợp → điều hướng sang đúng chiến dịch. Không có → mới loại.",
+    "Rà search terms CẮT THEO COUNTRY, không rà gộp. CPL một market rẻ bất thường thường là tràn geo từ market rẻ hơn.",
+    "Truy vấn có tên nước khác: có 'vs / compare / or / cheaper than / instead of' → GIỮ (S2). Chỉ có tên nước khác → phủ định.",
+    "Mỗi lần thêm phủ định, ghi lại lý do vào cột Lý do. Danh sách phủ định không có lý do là danh sách không ai dám sửa."
+  ],
+
+  "nguong": [
+    { "quy_tac": "CPL vượt ngưỡng", "he_so": 1.5, "moc": "cpl", "hanh_dong": "Hạ bid 15%, rà search terms. ⛔ KHÔNG cắt chiến dịch tầng C chỉ vì CPL - độ trễ 4-12 tuần." },
+    { "quy_tac": "Chi phí/ca chốt vượt ngưỡng", "he_so": 1.3, "moc": "ca_chot", "hanh_dong": "Dừng mở rộng, rà lại chân dung và landing. Kiểm tiêu chí ④ travel intent trước." },
+    { "quy_tac": "Chi phí/ca chốt dưới ngưỡng", "he_so": 0.7, "moc": "ca_chot", "hanh_dong": "Tăng ngân sách 20%/tuần, nhân bản sang market CÙNG NHÓM LUẬT QUẢNG CÁO (NZ, CA). ⛔ Không nhân bản sang market khác nhóm luật." },
+    { "quy_tac": "Tỷ lệ phản hồi được dưới 60%", "he_so": 1.0, "moc": "cpl", "hanh_dong": "Đây là VẤN ĐỀ VẬN HÀNH, không phải vấn đề quảng cáo. Kiểm ca trực theo múi giờ, kênh nhắn tin, và trường preferred contact time trên form." }
+  ],
+
+  "lo_trinh": [
+    { "pha": "Pha 1 — Học", "thoi_gian": "Tuần 1-8", "dieu_kien": "Chạy tối thiểu 8 tuần trước khi kết luận - độ trễ lead → đến khám là 4-12 tuần", "chien_luoc": "Manual CPC toàn bộ", "chuyen_doi": "Lead (form + chat có số) · tải cẩm nang", "bat_buoc": "Gắn đủ 3 tag CRM (market/tier/stage) từ ngày đầu. Không có tag thì Pha 2 không làm được." },
+    { "pha": "Pha 2 — Tối ưu", "thoi_gian": "Tuần 9-20", "dieu_kien": "Có ≥ 30 lead/chiến dịch và ≥ 1 cohort đã đủ 8 tuần", "chien_luoc": "Max conversions cho P1, Manual cho P2/P3", "chuyen_doi": "ĐẶT CỌC (import offline)", "bat_buoc": "Import chuyển đổi đặt cọc từ CRM. Đây là điều kiện để mở Broad ở Pha 3." },
+    { "pha": "Pha 3 — Mở rộng", "thoi_gian": "Tuần 21+", "dieu_kien": "Chi phí/khách đến khám ổn định trong 2 cohort liền", "chien_luoc": "tROAS theo giá trị ca · mở Broad có kiểm soát", "chuyen_doi": "ĐẾN KHÁM (arrival)", "bat_buoc": "Nhân bản sang NZ/CA (cùng nhóm luật quảng cáo). ⛔ Không nhân bản creative sang market khác nhóm luật." }
+  ],
+
+  "quy_tac_canh_tranh": [
+    { "hang_muc": "Đối thủ có tên", "quy_tac": "⛔ Không nêu tên hạ thấp đối thủ, gồm cả cơ sở ở Thái Lan, Hàn Quốc, Thổ Nhĩ Kỳ. So sánh bằng bộ tiêu chí khách quan để khách tự đánh giá." },
+    { "hang_muc": "So sánh giá", "quy_tac": "⛔ Không so giá với quốc gia hoặc cơ sở CÓ TÊN. Công bố bảng giá đầy đủ, để bảng giá nói thay." },
+    { "hang_muc": "Creative theo market", "quy_tac": "Winner chỉ nhân bản sang market CÙNG NHÓM LUẬT QUẢNG CÁO. Hook dùng testimonial thắng ở tầng A không chuyển sang AU được - không phải vì hiệu quả, mà vì luật." },
+    { "hang_muc": "Báo cáo", "quy_tac": "Luôn cắt 4 chiều: market × tầng × chặng × cohort theo tháng nhận lead. Báo cáo theo chiến dịch là không đủ." },
+    { "hang_muc": "Keyword Planner", "quy_tac": "Chạy RIÊNG cho từng market. Volume và CPC của cùng một từ khoá ở Úc và Campuchia khác nhau hoàn toàn." }
+  ],
+
+  "ab_test": [
+    { "test": "★ T4 — Có nêu số ngày ở lại hay không", "a": "LP3 nêu rõ số ngày ở lại (khi đã có số từ Khoa Chuyên môn)", "b": "LP3 chỉ nói 'varies by case', không nêu số", "chi_so": "Tỷ lệ chuyển sang đặt cọc + tỷ lệ phản hồi", "thoi_gian": "8 tuần" },
+    { "test": "T1 — Hook: logistics vs an toàn", "a": "Hook logistics: số ngày + phiên dịch", "b": "Hook an toàn: giấy phép + hồ sơ bác sĩ", "chi_so": "CTR + tỷ lệ đặt cọc", "thoi_gian": "6 tuần" },
+    { "test": "T5 — Kênh CTA", "a": "CTA chính là WhatsApp", "b": "CTA chính là form", "chi_so": "Tỷ lệ PHẢN HỒI ĐƯỢC (không phải số lead)", "thoi_gian": "4 tuần" },
+    { "test": "T6 — Hiện giá trong ad", "a": "Ad nêu khoảng giá", "b": "Ad không nêu giá", "chi_so": "CTR + chất lượng lead (tỷ lệ đặt cọc)", "thoi_gian": "6 tuần" }
+  ],
+
+  "rui_ro": [
+    { "rui_ro": "Cắt chiến dịch tầng C quá sớm vì CPL cao", "kiem_soat": "Khoá cứng cửa sổ đánh giá ≥ 8 tuần cho tầng C. Dùng tỷ lệ đặt cọc làm chỉ số sớm thay cho CPL." },
+    { "rui_ro": "Tràn geo: traffic quốc tế lọt vào chiến dịch expat", "kiem_soat": "geo_mode=Presence cho VN-EXPAT. Rà search terms cắt theo country 2 lần/tuần ở Pha 1." },
+    { "rui_ro": "Creative vi phạm AHPRA (testimonial kết quả / before-after)", "kiem_soat": "Mọi creative tầng C qua Pháp chế thị trường trước khi bật. Trụ bằng chứng là giấy phép + hồ sơ bác sĩ + quy trình, không phải kết quả." },
+    { "rui_ro": "Lead không kết nối được vì lệch múi giờ", "kiem_soat": "Form bắt buộc có preferred contact time + time zone. Xếp ca trực theo market. Thank-you page quy đổi giờ của khách." },
+    { "rui_ro": "Khách phát hiện phụ phí 10% ở quầy thanh toán", "kiem_soat": "3 dòng bắt buộc của bảng giá có trên mọi trang có giá, và trong báo giá văn bản." },
+    { "rui_ro": "Marketing tự suy số ngày ở lại", "kiem_soat": "Trường này chỉ Khoa Chuyên môn cấp. Generator không chặn được việc này - phải kiểm bằng người ở bước duyệt landing." },
+    { "rui_ro": "Dùng chữ 'lifetime warranty' khi chưa có T&C", "kiem_soat": "Cổng CLAIM trong tools/build_keyword_workbook.py chặn build. Landing vẫn phải kiểm bằng người." }
+  ],
+
+  "hook_format": [
+    { "chang": "S4", "chan_dung": "CD2", "hook": "\"How many days do I actually need in Vietnam?\" — answered, with the medical milestones behind the number", "format": "Carousel 5 khung theo 5 bước chuyến đi · hoặc video dọc 30s quay bộ phận quốc tế", "muc_tieu": "Cùng mục tiêu với Search S4: tải cẩm nang chuyến đi" },
+    { "chang": "S3", "chan_dung": "CD1", "hook": "What a licensed hospital actually means — licence number, sterile theatre, written protocol", "format": "Video dọc 45s quay phòng mổ và quy trình (không quay thao tác mổ)", "muc_tieu": "Chat WhatsApp với bộ phận quốc tế" },
+    { "chang": "S2", "chan_dung": "CD3", "hook": "Choosing a country before choosing a clinic: the five things to check", "format": "Carousel 5 khung · PDF cẩm nang điểm đến", "muc_tieu": "Tải cẩm nang, nuôi phễu" }
+  ]
+}

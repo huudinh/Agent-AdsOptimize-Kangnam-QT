@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rhinoplasty in Vietnam — Kangnam Korean Aesthetic Hospital</title>
+<meta name="description" content="MOH-licensed aesthetic hospital in Vietnam. Published price list, international patient department, interpreter support before and after you fly home.">
+<meta name="robots" content="noindex, nofollow">
+<!--
+  ============================================================================
+  KANGNAM INTERNATIONAL — LANDING PAGE SKELETON
+  Framework : L3 · TRIP-PLAN   (stage S4 · tier C · market AU)
+  Design    : Design System Kangnam International v1.0
+  Spec      : knowledge/kn-khung-landing-qt.md
+
+  THIS IS A SKELETON, NOT A FINISHED PAGE.
+  - Every [PENDING: …] must be filled by the named owner before launch.
+  - Every <figure class="ph"> is a placeholder; supply a real photo.
+  - Copy is written for tier C (AU). Other tiers need different evidence —
+    see kn-rao-phap-ly-qt.md §2 before reusing.
+  - NOT CLEARED FOR LAUNCH: needs Legal VN + AHPRA review (see §LEGAL below).
+  ============================================================================
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* primary — from production --primary-color / --second-color */
+  --teal:#005F88; --teal-900:#00394F; --teal-400:#00BAC3; --navy:#003C77;
+  /* luxury accent */
+  --gold:#B08D4F; --gold-dk:#8C6E36; --gold-lt:#C9A86A; --gold-wash:#F3EADA;
+  /* action */
+  --cta:#E15A01; --cta-press:#C44D00;
+  /* surface */
+  --bg:#FFFFFF; --surface:#FFFFFF; --champagne:#FAF7F2; --surface-alt:#F7F9FA;
+  /* ink & line */
+  --ink:#14212B; --ink-2:#4A5C6A; --ink-3:#7A8B98;
+  --line:#E3E8EC; --line-gold:#E0D2B6;
+  /* state */
+  --ok:#147D56; --err:#B3261E; --err-t:#FDECEA;
+  /* shape */
+  --r-sm:6px; --r:10px; --r-lg:16px; --r-pill:999px;
+  --sh:0 1px 2px rgba(20,33,43,.04), 0 8px 24px rgba(20,33,43,.06);
+  --sh-lg:0 2px 4px rgba(20,33,43,.05), 0 24px 48px rgba(20,33,43,.10);
+  /* rhythm — 8px scale */
+  --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s5:48px; --s6:64px; --s7:96px;
+  --maxw:1140px; --maxw-text:68ch; --hdr-h:72px;
+  --f:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  --f-d:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.65 var(--f);color:var(--ink);background:var(--bg)}
+img{max-width:100%;display:block}
+h1,h2,h3{margin:0}
+a{color:var(--teal)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--s3)}
+@media (max-width:640px){.wrap{padding-inline:var(--s2)}}
+section{padding-block:var(--s7);scroll-margin-top:var(--hdr-h)}
+@media (max-width:860px){section{padding-block:var(--s5)}}
+.band-warm{background:var(--champagne)}
+.band-cool{background:var(--surface-alt)}
+.band-dark{background:var(--teal-900);color:#fff}
+.band-dark h2,.band-dark .eyebrow{color:#fff}
+.band-dark .eyebrow{color:var(--gold-lt)}   /* 5,47 AA on teal-900 */
+
+/* header */
+.hdr{position:sticky;top:0;z-index:60;min-height:var(--hdr-h);display:flex;
+  align-items:center;gap:var(--s3);padding:12px clamp(16px,4vw,40px);
+  background:rgba(255,255,255,.92);backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hdr__logo{font:600 22px/1 var(--f-d);color:var(--teal-900);letter-spacing:.02em;
+  text-decoration:none;white-space:nowrap}
+.hdr__nav{display:flex;gap:var(--s3);margin-inline-start:auto;font-size:15px;font-weight:500}
+.hdr__nav a{color:var(--ink-2);text-decoration:none}
+.hdr__nav a:hover{color:var(--teal)}
+.hdr__cta{margin-inline-start:auto}
+.hdr__nav+.hdr__cta{margin-inline-start:0}
+@media (max-width:980px){.hdr__nav{display:none}}
+@media (max-width:640px){.hdr__cta .btn{width:auto;padding:10px 18px;font-size:15px;min-height:44px}}
+
+/* section heading */
+.sec-head{max-width:var(--maxw-text);margin-bottom:var(--s5)}
+.sec-head--center{margin-inline:auto;text-align:center}
+.eyebrow{display:block;font:600 13px/1.4 var(--f);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--gold-dk)}      /* 4,77 AA on white */
+.sec-head h2{margin:10px 0 0;font:600 clamp(27px,3.4vw,40px)/1.18 var(--f-d);
+  color:var(--teal-900);letter-spacing:-.01em}
+.rule{display:block;width:56px;height:1px;background:var(--line-gold);margin-top:var(--s3)}
+.sec-head--center .rule{margin-inline:auto}
+.lede{margin:var(--s3) 0 0;font-size:19px;color:var(--ink-2);max-width:var(--maxw-text)}
+
+/* buttons — .btn-cta label is 19px/700: the contrast threshold for white on --cta */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:54px;padding:14px 34px;border:0;border-radius:var(--r-pill);
+  font-family:var(--f);text-decoration:none;cursor:pointer;
+  transition:background-color .16s,transform .12s}
+.btn-cta{background:var(--cta);color:#fff;font-size:19px;font-weight:700}
+.btn-cta:hover{background:var(--cta-press)}
+.btn-cta:active{transform:translateY(1px)}
+.btn-ghost{background:transparent;color:var(--teal);font-size:16px;font-weight:600;
+  box-shadow:inset 0 0 0 1.5px var(--teal);min-height:48px}
+.btn-wa{background:#fff;color:var(--teal-900);font-size:16px;font-weight:600;
+  box-shadow:inset 0 0 0 1.5px var(--line);min-height:48px}
+.btn-row{display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s4)}
+@media (max-width:640px){.btn{width:100%}.btn-row{flex-direction:column}}
+
+/* cards & grid */
+.card{background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r-lg);padding:var(--s4);box-shadow:var(--sh)}
+.card--gold{border-color:var(--line-gold)}
+.grid{display:grid;gap:var(--s3)}
+.grid-2{grid-template-columns:repeat(2,1fr)}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.grid-4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:980px){.grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+
+/* hero */
+.hero{padding-block:var(--s6) var(--s7);background:var(--champagne)}
+.hero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:var(--s5);align-items:center}
+@media (max-width:980px){.hero__grid{grid-template-columns:1fr;gap:var(--s4)}}
+.hero h1{font:600 clamp(34px,5vw,56px)/1.08 var(--f-d);color:var(--teal-900);
+  letter-spacing:-.015em;margin-bottom:var(--s3)}
+.hero__sub{font-size:20px;color:var(--ink-2);max-width:52ch}
+.badges{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s4);
+  list-style:none;padding:0;font-size:14px;font-weight:500;color:var(--teal-900)}
+.badges li{display:flex;align-items:center;gap:8px;background:#fff;
+  border:1px solid var(--line-gold);border-radius:var(--r-pill);padding:8px 16px}
+.badges svg{flex:none;color:var(--teal)}
+
+/* credential strip */
+.cred{display:grid;grid-template-columns:repeat(5,1fr);gap:0;
+  border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.cred__item{padding:var(--s3);text-align:center;border-inline-end:1px solid var(--line)}
+.cred__item:last-child{border-inline-end:0}
+.cred__n{font:600 15px/1 var(--f-d);color:var(--gold-dk);letter-spacing:.1em}
+.cred__t{margin-top:10px;font-size:15px;font-weight:600;color:var(--teal-900)}
+@media (max-width:980px){.cred{grid-template-columns:repeat(2,1fr)}
+  .cred__item{border-block-end:1px solid var(--line);border-inline-end:1px solid var(--line)}}
+@media (max-width:520px){.cred{grid-template-columns:1fr}
+  .cred__item{border-inline-end:0}}
+
+/* numbered steps — the gold numeral is 40px, well past the 24px gold threshold */
+.step__n{font:600 40px/1 var(--f-d);color:var(--gold);
+  border-bottom:1px solid var(--line-gold);padding-bottom:10px;margin-bottom:14px}
+.band-dark .step__n{color:var(--gold-lt);border-color:rgba(224,210,182,.35)}
+.step h3{font-size:19px;font-weight:600;margin-bottom:8px}
+.step p{margin:0;color:var(--ink-2);font-size:16px}
+.band-dark .step p{color:#D8E3E9}
+
+/* data table */
+.tbl{width:100%;border-collapse:collapse;font-size:16px}
+.tbl caption{text-align:start;font-size:14px;color:var(--ink-2);padding-bottom:var(--s2)}
+.tbl th,.tbl td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:start}
+.tbl thead th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-2);font-weight:600}
+.tbl tbody th{font-weight:600;color:var(--teal-900)}
+.tbl td.num{text-align:end;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tbl-scroll{overflow-x:auto}
+.fineprint{margin-top:var(--s3);font-size:15px;color:var(--ink-2)}
+.fineprint strong{color:var(--ink)}
+
+/* FAQ */
+.faq details{border-bottom:1px solid var(--line);padding:var(--s3) 0}
+.faq summary{cursor:pointer;font-size:18px;font-weight:600;color:var(--teal-900);
+  list-style:none;display:flex;justify-content:space-between;gap:var(--s2)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:600 24px/1 var(--f-d);color:var(--gold)}
+.faq details[open] summary::after{content:"\2013"}
+.faq p{margin:var(--s2) 0 0;color:var(--ink-2);max-width:var(--maxw-text)}
+
+/* form */
+.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s3)}
+@media (max-width:640px){.form-grid{grid-template-columns:1fr}}
+.field{display:flex;flex-direction:column;gap:7px}
+.field--full{grid-column:1/-1}
+.field label{font-size:15px;font-weight:600;color:var(--teal-900)}
+.field .hint{font-size:14px;color:var(--ink-2)}
+.input{min-height:52px;padding:12px 14px;border:1px solid var(--line);
+  border-radius:var(--r);font:400 16px var(--f);color:var(--ink);background:#fff}
+.input:focus{outline:0;border-color:var(--teal);box-shadow:0 0 0 3px rgba(0,95,136,.16)}
+.field.bad .input{border-color:var(--err);background:var(--err-t)}
+.err{display:none;font-size:14px;font-weight:600;color:var(--err)}
+.field.bad .err{display:block}
+.phone-row{display:grid;grid-template-columns:110px 1fr;gap:10px}
+.consent{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;
+  font-size:15px;color:var(--ink-2)}
+.consent input{margin-top:4px;width:20px;height:20px;flex:none;accent-color:var(--teal)}
+.privacy{grid-column:1/-1;font-size:14px;color:var(--ink-2);margin:0}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* placeholder image box */
+.ph{display:grid;place-content:center;gap:6px;text-align:center;margin:0;padding:20px;
+  aspect-ratio:var(--ar,16/9);background:var(--surface-alt);
+  border:1px dashed var(--line-gold);border-radius:var(--r-lg);
+  color:var(--ink-2);font-size:14px;line-height:1.5}
+.ph b{display:block;font-weight:600;color:var(--teal-900)}
+.band-dark .ph{background:rgba(255,255,255,.06);color:#C7D5DD}
+.band-dark .ph b{color:#fff}
+
+/* footer */
+.foot{background:var(--teal-900);color:#C7D5DD;padding-block:var(--s6) var(--s5);font-size:15px}
+.foot a{color:#fff}
+.foot__grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:var(--s5)}
+@media (max-width:860px){.foot__grid{grid-template-columns:1fr;gap:var(--s4)}}
+.foot__brand{font:600 24px/1 var(--f-d);color:#fff;letter-spacing:.02em}
+.foot h3{font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold-lt);margin-bottom:var(--s2)}
+.foot__licence{margin-top:var(--s3);font-style:italic;line-height:1.6}
+.foot__legal{margin-top:var(--s5);padding-top:var(--s3);
+  border-top:1px solid rgba(255,255,255,.14);font-size:14px}
+
+/* sticky action bar — mobile */
+.sticky{position:fixed;inset-inline:0;bottom:0;z-index:70;display:none;gap:8px;
+  padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));
+  background:rgba(255,255,255,.96);backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+@media (max-width:860px){.sticky{display:flex} body{padding-bottom:84px}}
+.sticky .btn{min-height:48px;padding:12px 10px;font-size:15px;flex:1;width:auto}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+
+<!-- ======================= HEADER ======================= -->
+<header class="hdr">
+  <a class="hdr__logo" href="#top">KANGNAM</a>
+  <nav class="hdr__nav" aria-label="Sections">
+    <a href="#trip">Your trip</a>
+    <a href="#aftercare">Aftercare</a>
+    <a href="#surgeons">Surgeons</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <div class="hdr__cta"><a class="btn btn-cta" href="#enquiry">Book consultation</a></div>
+</header>
+
+<main id="top">
+
+<!-- ======================= B01 · HERO =======================
+     Message-match for stage S4: the ad promised an answer about the TRIP,
+     so the hero answers the trip question — not the price question. -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <span class="eyebrow">Rhinoplasty in Vietnam</span>
+      <h1>Plan the whole trip before you book the flight</h1>
+      <p class="hero__sub">How many days you stay, who meets you at the airport,
+        and who you talk to after you fly home — answered on this page, in writing.</p>
+      <ul class="badges">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Licensed by Vietnam&rsquo;s Ministry of Health</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>International Patient Department</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Interpreter before, during and after</li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn-cta" href="#trip">See the 5-step plan</a>
+        <a class="btn btn-wa" href="https://wa.me/84981615151?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20rhinoplasty%20in%20Vietnam"
+           rel="noopener">Ask on WhatsApp</a>
+      </div>
+    </div>
+    <figure class="ph" style="--ar:4/5">
+      <b>Photo 4:5 — hero</b>
+      International patient with interpreter at the Hanoi hospital reception.
+      Needs: real photo of the system · written consent with INTERNATIONAL scope · Legal approval.
+      Load eagerly, fetchpriority="high", do NOT lazy-load.
+    </figure>
+  </div>
+</section>
+
+<!-- ======================= B02 · CREDENTIAL BAR ======================= -->
+<section class="band-cool" style="padding-block:var(--s5)">
+  <div class="wrap">
+    <div class="cred">
+      <div class="cred__item"><div class="cred__n">01</div><div class="cred__t">MOH Vietnam licensed</div></div>
+      <div class="cred__item"><div class="cred__n">02</div><div class="cred__t">Korean-trained surgeons</div></div>
+      <div class="cred__item"><div class="cred__n">03</div><div class="cred__t">3D simulation system</div></div>
+      <div class="cred__item"><div class="cred__n">04</div><div class="cred__t">International Patient Department</div></div>
+      <div class="cred__item"><div class="cred__n">05</div><div class="cred__t">Muslim-friendly care</div></div>
+    </div>
+    <p class="fineprint">
+      Licence No. 194/BYT-GPHĐ (Hanoi) · Licence No. 287/BYT-GPHĐ (Ho Chi Minh City),
+      issued by the Vietnamese Ministry of Health.
+      <!-- Show ONLY the licence of the facility this page sends patients to. -->
+      <br><em>[PENDING: what "Muslim-friendly care" includes — halal catering? female staff on request?
+      prayer space? — International Dept. A claim with no specifics is not evidence.]</em>
+    </p>
+  </div>
+</section>
+
+<!-- ======================= B08 · YOUR TRIP, STEP BY STEP =======================
+     This is the core block of the L3 framework. It answers barrier ④ DISTANCE.
+     The stay-duration figure is a MEDICAL milestone — never invent it. -->
+<section id="trip">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Step by step</span>
+      <h2>What the trip actually looks like</h2>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="lede" style="margin-inline:auto">Five steps, from your first message to the
+        follow-up after you land back home.</p>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card step">
+        <div class="step__n">01</div>
+        <h3>Pre-consultation, from home</h3>
+        <p>Send photos through your preferred messaging app. A surgeon reviews them and sends back
+          the recommended procedure and an estimated cost. No travel needed yet.</p>
+      </div>
+      <div class="card step">
+        <div class="step__n">02</div>
+        <h3>Reservation and dates</h3>
+        <p><strong>Minimum stay in Vietnam: [PENDING: minimum stay — Medical Dept]</strong>,
+          varies by case. The figure covers the days up to suture removal and your final
+          check-up, and the point at which flying is cleared.
+          Hotel recommendation and airport pick-up are arranged with your dates.</p>
+      </div>
+      <div class="card step">
+        <div class="step__n">03</div>
+        <h3>In-person consultation</h3>
+        <p>You meet the surgeon who will operate, not a sales consultant. The plan from step 1 is
+          confirmed or revised against the examination, and the final cost is set.</p>
+      </div>
+      <div class="card step">
+        <div class="step__n">04</div>
+        <h3>Surgery</h3>
+        <!-- Production page says only "Safety is our priority" — an adjective where the page
+             most needs evidence. Replace with verifiable specifics. -->
+        <p>In a sterile operating theatre at a hospital-tier facility, under a documented surgical
+          protocol reviewed by the medical board. Anaesthesia is prescribed and managed by a
+          specialist. <em>[PENDING: hours of post-operative monitoring, and who is on call overnight
+          — Medical Dept]</em></p>
+      </div>
+      <div class="card step">
+        <div class="step__n">05</div>
+        <h3>Discharge and clearance to fly</h3>
+        <p>Final check-up, written aftercare instructions in English, and confirmation from your
+          surgeon that you are cleared to fly. <em>[PENDING: which documents you are given to
+          carry — Medical Dept]</em></p>
+      </div>
+      <figure class="ph" style="--ar:1/1">
+        <b>Photo 1:1</b>
+        International Patient Department desk, or interpreter with a patient.
+        Needs: real photo · consent with international scope.
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= B09 · AFTER YOU FLY HOME =======================
+     The highest-leverage block of the whole package, and the one the production
+     page leaves as a single sentence. Barrier ④ DISTANCE, questions 2–4. -->
+<section id="aftercare" class="band-dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">After you fly home</span>
+      <h2>Who looks after you once you have landed</h2>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="lede" style="color:#D8E3E9">This is the question most patients ask last and worry
+        about most. Here is the written answer.</p>
+    </div>
+
+    <div class="grid grid-2">
+      <div>
+        <h3 style="font-size:19px;margin-bottom:10px">Your contact</h3>
+        <p style="color:#D8E3E9;margin:0">Your interpreter stays your point of contact after
+          departure — the same person, not a general inbox.
+          <br><em>[PENDING: languages covered · response-time commitment · for how many months
+          — International Dept]</em></p>
+
+        <h3 style="font-size:19px;margin:var(--s4) 0 10px">Remote follow-up</h3>
+        <p style="color:#D8E3E9;margin:0"><em>[PENDING: the remote follow-up schedule — at which
+          weeks, over which channel, with whom — Medical Dept]</em></p>
+      </div>
+      <div>
+        <h3 style="font-size:19px;margin-bottom:10px">If a revision is needed</h3>
+        <!-- The production page says "Lifetime warranty". Do NOT use that wording without
+             written T&C: scope, duration, exclusions, and who pays the return airfare. -->
+        <p style="color:#D8E3E9;margin:0">A follow-up and warranty policy applies. The terms set
+          out what is covered, for how long, what is excluded, and how travel costs are handled
+          if a revision is required.
+          <br><em>[PENDING: warranty T&amp;C document — Legal. Until it exists this block states
+          the policy exists and links to the terms; the word "lifetime" is not used.]</em></p>
+
+        <h3 style="font-size:19px;margin:var(--s4) 0 10px">Annual check-ups</h3>
+        <p style="color:#D8E3E9;margin:0">Annual follow-up appointments are included in the
+          service package.</p>
+      </div>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-cta" href="#enquiry">Ask about aftercare in my country</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= B06 · YOUR SURGEON =======================
+     Four doctor gates must pass before a name appears here:
+     live on the INTERNATIONAL site · right specialty AND right facility ·
+     licence number on file · on the internal "approved for promotion" list. -->
+<section id="surgeons">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Your surgeon</span>
+      <h2>Who operates, and what they trained in</h2>
+      <span class="rule" aria-hidden="true"></span>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <figure class="ph" style="--ar:3/4;margin-bottom:var(--s3)">
+          <b>Photo 3:4</b>Surgeon portrait — real photo only
+        </figure>
+        <h3 style="font-size:19px">Dr. PhD Richard Huy</h3>
+        <p style="color:var(--ink-2);font-size:16px;margin:8px 0 0">
+          Medical Director, Kangnam Aesthetic Hospital — Hanoi<br>
+          Doctor of Medicine (PhD), Hanoi Medical University<br>
+          Over 20 years of experience in aesthetic surgery
+        </p>
+      </div>
+      <div class="card">
+        <figure class="ph" style="--ar:3/4;margin-bottom:var(--s3)">
+          <b>Photo 3:4</b>Surgeon portrait — real photo only
+        </figure>
+        <h3 style="font-size:19px">Dr. Henry Nguyen</h3>
+        <p style="color:var(--ink-2);font-size:16px;margin:8px 0 0">
+          Head of Facial Plastic and Aesthetic Surgery — Hanoi<br>
+          Specialist Level I in General Surgery, Hanoi Medical University<br>
+          Over 12 years of experience in aesthetic surgery
+        </p>
+      </div>
+      <div class="card">
+        <figure class="ph" style="--ar:3/4;margin-bottom:var(--s3)">
+          <b>Photo 3:4</b>Surgeon portrait — real photo only
+        </figure>
+        <h3 style="font-size:19px">Dr. Victor Vu</h3>
+        <p style="color:var(--ink-2);font-size:16px;margin:8px 0 0">
+          Head of Maxillofacial Surgery — Hanoi<br>
+          Specialist Level I in Oral and Maxillofacial Surgery<br>
+          Nearly 20 years of experience in oral and maxillofacial surgery
+        </p>
+      </div>
+    </div>
+    <p class="fineprint">
+      Credentials are quoted as published. <em>[PENDING: practising-certificate numbers for each
+      surgeon named here — Legal. The international site publishes degrees but not licence
+      numbers; without them, no individual skill claim may be made.]</em>
+      <br><em>[PENDING: whether society memberships (VSAPS / ASPS / ISAPS / AAFPRS) may be shown.
+      If approved they attach to a named individual with a current membership record, and are
+      never presented as board certification — see kn-rao-phap-ly-qt.md §4 rule ④.]</em>
+    </p>
+  </div>
+</section>
+
+<!-- ======================= B10 · PRICE =======================
+     International packages must publish price. The three mandatory lines below
+     are not optional: the 10% surcharge discovered at the payment desk is a
+     trust bomb that costs the case and earns a bad review. -->
+<section id="pricing" class="band-warm">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Pricing</span>
+      <h2>Published price list — compare it yourself</h2>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="lede">We publish the full list rather than claiming to be cheaper than anywhere
+        else. <em>[PENDING: refresh from /price-list/ at run time — prices are live data.]</em></p>
+    </div>
+
+    <div class="card card--gold">
+      <div class="tbl-scroll">
+        <table class="tbl">
+          <caption>Rhinoplasty — snapshot taken 21 Oct 2026. Verify before publishing.</caption>
+          <thead>
+            <tr><th scope="col">Procedure</th><th scope="col" class="num">VND</th>
+                <th scope="col" class="num">Approx. USD</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Idol Structure (Nanoform)</th><td class="num">35,200,000</td><td class="num">1,353</td></tr>
+            <tr><th scope="row">Surgiform technique</th><td class="num">48,000,000</td><td class="num">1,846</td></tr>
+            <tr><th scope="row">6D VIP</th><td class="num">56,800,000</td><td class="num">2,184</td></tr>
+            <tr><th scope="row">Rib cartilage (100%)</th><td class="num">88,200,000</td><td class="num">3,392</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid grid-2" style="margin-top:var(--s4)">
+        <div>
+          <h3 style="font-size:17px;margin-bottom:10px">Included in the package</h3>
+          <p style="color:var(--ink-2);font-size:16px;margin:0">Consultation · comprehensive health
+            screening · pre-operative assessment · post-operative care and medication ·
+            follow-up appointments · annual check-ups · warranty policy (see terms)</p>
+        </div>
+        <div>
+          <h3 style="font-size:17px;margin-bottom:10px">Not included</h3>
+          <p style="color:var(--ink-2);font-size:16px;margin:0">Flights · hotel ·
+            <strong>10% international service charge</strong>
+            <em>[PENDING: is interpreting charged separately? — International Dept]</em></p>
+        </div>
+      </div>
+
+      <!-- THE THREE MANDATORY LINES — do not remove any of them -->
+      <p class="fineprint">
+        <strong>The price shown does not include the 10% international service charge.</strong><br>
+        USD figures are approximate and depend on the exchange rate on the day of payment.<br>
+        Final cost is confirmed by the doctor after an in-person examination.
+      </p>
+    </div>
+    <div class="btn-row"><a class="btn btn-cta" href="#enquiry">Request a written quote</a></div>
+  </div>
+</section>
+
+<!-- ======================= B11 · PROOF =======================
+     TIER C WARNING. For AU/UK/EU/US/GCC this block must NOT carry
+     before-after photos or testimonials about clinical outcomes.
+     AHPRA prohibits testimonials about clinical outcomes outright.
+     What IS permitted: testimonials about the non-clinical experience. -->
+<section>
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">What patients say about the service</span>
+      <h2>On interpreting, transfers and staff — not on results</h2>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="lede" style="margin-inline:auto">For this market we publish feedback about the
+        non-clinical experience only. Outcome testimonials and before-and-after photographs are
+        restricted where you live, so you will not find them here.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card"><p style="margin:0;color:var(--ink-2)"><em>[PENDING: non-clinical
+        testimonial — International Dept. Must be a real, attributable quote about interpreting,
+        airport transfer, hotel or staff. Not about the surgical result.]</em></p></div>
+      <div class="card"><p style="margin:0;color:var(--ink-2)"><em>[PENDING: non-clinical
+        testimonial]</em></p></div>
+      <div class="card"><p style="margin:0;color:var(--ink-2)"><em>[PENDING: non-clinical
+        testimonial]</em></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= B12 · FAQ =======================
+     Written for this hospital. The production page's FAQ must not be copied:
+     it names a surgeon from a different clinic and claims results are permanent. -->
+<section id="faq" class="band-cool">
+  <div class="wrap">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">FAQ</span>
+      <h2>The questions that decide whether you book a flight</h2>
+      <span class="rule" aria-hidden="true"></span>
+    </div>
+    <div class="faq" style="max-width:var(--maxw-text);margin-inline:auto">
+      <details open>
+        <summary>How many days do I need to be in Vietnam?</summary>
+        <p><em>[PENDING: minimum stay — Medical Dept.]</em> The figure is given as a range and
+          varies by case. It is set by medical milestones — suture removal, your final check-up,
+          and the point at which your surgeon clears you to fly — not by convenience.</p>
+      </details>
+      <details>
+        <summary>Who do I contact once I am home?</summary>
+        <p>Your interpreter remains your point of contact after departure.
+          <em>[PENDING: response-time commitment and duration — International Dept]</em></p>
+      </details>
+      <details>
+        <summary>What happens if I need a revision?</summary>
+        <p>A follow-up and warranty policy applies, setting out what is covered, for how long,
+          what is excluded, and how travel costs are handled.
+          <em>[PENDING: warranty T&amp;C — Legal]</em></p>
+      </details>
+      <details>
+        <summary>Is rhinoplasty painful?</summary>
+        <p>Discomfort is managed under an anaesthesia and analgesia protocol prescribed by your
+          surgeon. Tenderness and sensitivity to pressure are common for some weeks afterwards,
+          and more extensive work on cartilage or bone generally means more discomfort.
+          Your surgeon will set out what to expect in your case.*</p>
+      </details>
+      <details>
+        <summary>How long do the results last?</summary>
+        <!-- The production page answers "Yes, the results are permanent." That is an outcome
+             guarantee and cannot be used. -->
+        <p>Results are long-lasting, but ageing or injury can change the structure of the nose over
+          time. No surgical result can be guaranteed to be permanent.*</p>
+      </details>
+      <details>
+        <summary>Can I combine procedures in one trip?</summary>
+        <p>Often yes, and combining is a genuine advantage of travelling for treatment. Whether it
+          is appropriate is decided case by case at your in-person consultation, taking recovery
+          and anaesthesia time into account.</p>
+      </details>
+      <details>
+        <summary>Do you help with visas or an invitation letter?</summary>
+        <p><em>[PENDING: visa and invitation-letter support — International Dept. Do not promise
+          anything here until confirmed.]</em></p>
+      </details>
+      <details>
+        <summary>How do I pay, and is a deposit required?</summary>
+        <p><em>[PENDING: accepted international payment methods and deposit amount — Finance.
+          This is a real blocker: patients will not book flights without knowing it.]</em></p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= B13 · ENQUIRY FORM =======================
+     The domestic 3-field form does not work internationally.
+     The time-zone field is what makes the callback connect: the hospital is
+     open 08:00–17:00 Vietnam time, which is 17:00–02:00 in Los Angeles. -->
+<section id="enquiry">
+  <div class="wrap" style="max-width:860px">
+    <div class="sec-head sec-head--center">
+      <span class="eyebrow">Consultation enquiry</span>
+      <h2>Tell us when you can talk, and we will work around your time zone</h2>
+      <span class="rule" aria-hidden="true"></span>
+    </div>
+
+    <form class="card" novalidate>
+      <div class="form-grid">
+        <div class="field field--full">
+          <label for="f-name">Full name</label>
+          <input class="input" id="f-name" name="name" type="text" autocomplete="name" required>
+          <span class="err">Please enter your name.</span>
+        </div>
+
+        <div class="field">
+          <label for="f-phone">Phone number</label>
+          <div class="phone-row">
+            <input class="input" id="f-code" name="country_code" type="tel" inputmode="tel"
+                   placeholder="+61" aria-label="Country calling code" required>
+            <input class="input" id="f-phone" name="phone" type="tel" inputmode="tel"
+                   autocomplete="tel" required>
+          </div>
+          <span class="err">Please include your country code.</span>
+        </div>
+
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input class="input" id="f-email" name="email_address" type="email"
+                 autocomplete="email" required>
+          <span class="hint">Required — time zones mean email is often the reliable channel.</span>
+        </div>
+
+        <div class="field">
+          <label for="f-country">Country you live in</label>
+          <select class="input" id="f-country" name="country" required>
+            <option value="">Select…</option>
+            <option>Australia</option><option>New Zealand</option>
+            <option>United States</option><option>Canada</option>
+            <option>United Kingdom</option><option>United Arab Emirates</option>
+            <option>Cambodia</option><option>Indonesia</option>
+            <option>Philippines</option><option>Malaysia</option>
+            <option>Living in Vietnam</option><option>Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-service">Procedure you are interested in</label>
+          <select class="input" id="f-service" name="service" required>
+            <option value="">Select…</option>
+            <option>Rhinoplasty</option><option>Eyelid surgery</option>
+            <option>Facelift / neck lift</option><option>V-line / jaw contouring</option>
+            <option>Breast augmentation</option><option>Liposuction</option>
+            <option>Hair transplant</option><option>Not sure yet</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="f-channel">Preferred messaging app</label>
+          <select class="input" id="f-channel" name="channel" required>
+            <option value="">Select one…</option>
+            <option>WhatsApp</option><option>Telegram</option><option>Viber</option>
+            <option>Line</option><option>KakaoTalk</option><option>Zalo</option>
+            <option>Email only</option>
+          </select>
+          <span class="hint">Pick one. We will use that channel, not all of them.</span>
+        </div>
+
+        <!-- ★ The field that decides whether the callback ever connects -->
+        <div class="field">
+          <label for="f-time">Best time to reach you</label>
+          <select class="input" id="f-time" name="contact_time" required>
+            <option value="">Select…</option>
+            <option>Morning, my local time</option>
+            <option>Afternoon, my local time</option>
+            <option>Evening, my local time</option>
+            <option>Any time</option>
+          </select>
+          <span class="hint">We are open 08:00–17:00 Vietnam time (UTC+7), seven days a week.</span>
+        </div>
+
+        <div class="field">
+          <label for="f-travel">When are you thinking of travelling?</label>
+          <input class="input" id="f-travel" name="travel_window" type="text"
+                 placeholder="e.g. March 2027, or not decided">
+          <span class="hint">Optional — it helps us plan surgeon availability.</span>
+        </div>
+
+        <div class="field field--full">
+          <label for="f-note">Anything you would like us to know</label>
+          <textarea class="input" id="f-note" name="note" rows="3"></textarea>
+        </div>
+
+        <!-- Honeypot — keep, and keep it out of the tab order -->
+        <div class="hp" aria-hidden="true">
+          <label for="f-hp">Leave blank</label>
+          <input id="f-hp" name="email" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="consent">
+          <input id="f-consent" name="consent" type="checkbox" required>
+          <label for="f-consent">I agree that Kangnam Korean Aesthetic Hospital may contact me
+            about my enquiry, and I understand that my information will be
+            <strong>transferred to and processed in Vietnam</strong>.
+            See the <a href="#privacy">privacy notice</a>.</label>
+        </div>
+
+        <p class="privacy">We do not ask for photographs on this form. If you choose to send
+          photographs for a pre-consultation, they are health data and are handled under a
+          separate notice that tells you who sees them and for how long they are kept.
+          <em>[PENDING: GDPR / UK GDPR privacy notice covering transfer to Vietnam — Legal.
+          Campaigns targeting the EU or UK must not launch until it exists.]</em></p>
+
+        <div class="field--full">
+          <button class="btn btn-cta" type="submit" style="width:100%">Request a consultation</button>
+          <p class="privacy" style="margin-top:var(--s2)">Free · no obligation · your information
+            is kept confidential.</p>
+        </div>
+      </div>
+      <p class="sr" role="status" aria-live="polite"></p>
+    </form>
+
+    <p class="fineprint">Prefer to message first?
+      <a href="https://wa.me/84981615151" rel="noopener">Ask us on WhatsApp</a> —
+      a private channel, if you would rather not use the form.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= B14 · FOOTER ======================= -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <div class="foot__brand">KANGNAM</div>
+      <p class="foot__licence"><em>Operating licence for medical examination and treatment
+        No. 194/BYT-GPHĐ (Hanoi) and No. 287/BYT-GPHĐ (Ho Chi Minh City),
+        issued by the Ministry of Health of Vietnam.</em></p>
+    </div>
+    <div>
+      <h3>Hospitals</h3>
+      <p>No. 190 Truong Chinh St., Kim Lien Ward, Hanoi, Vietnam<br><br>
+         No. 666 Cach Mang Thang 8 St., Tan Son Nhat Ward, Ho Chi Minh City, Vietnam</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p><a href="tel:+84981615151">(+84) 981 615 151</a><br>
+         <a href="https://wa.me/84981615151" rel="noopener">WhatsApp</a><br><br>
+         Monday to Sunday, 08:00–17:00<br>Vietnam time (UTC+7)</p>
+    </div>
+  </div>
+  <div class="wrap foot__legal">
+    <p>* Results vary by individual.</p>
+    <p id="privacy">This page is advertising for medical examination and treatment services and is
+      a draft pending approval. <em>[PENDING: advertising content confirmation number — Legal VN]</em>
+      · <em>[PENDING: market-specific advertising review — AHPRA for Australia]</em></p>
+  </div>
+</footer>
+
+<!-- ======================= STICKY ACTION BAR (mobile) ======================= -->
+<div class="sticky">
+  <a class="btn btn-wa" href="tel:+84981615151">Call</a>
+  <a class="btn btn-wa" href="https://wa.me/84981615151" rel="noopener">WhatsApp</a>
+  <a class="btn btn-cta" href="#enquiry" style="font-size:16px">Book</a>
+</div>
+
+<!--
+  ============================================================================
+  §LEGAL — NOT CLEARED FOR LAUNCH
+
+  Before this page goes live it needs:
+    1. Legal VN — advertising content confirmation (giấy xác nhận nội dung quảng cáo)
+    2. Market review — AHPRA guidelines for Australia (this draft targets AU)
+    3. Medical Dept — minimum stay, post-op monitoring, remote follow-up schedule
+    4. Legal — warranty T&C before any warranty wording is used
+    5. Legal — GDPR/UK GDPR notice if EU/UK is ever targeted
+    6. Legal — practising-certificate numbers for every surgeon named
+    7. International Dept — interpreter terms, visa support, payment and deposit
+
+  PHOTOS REQUIRED (supply before launch)
+  ---------------------------------------------------------------------------
+  Position            Ratio  Content                                  Int'l consent?  Approver
+  Hero                4:5    Patient with interpreter, Hanoi          REQUIRED        Legal
+  Trip section        1:1    International Patient Dept desk          REQUIRED        Legal
+  Surgeon x3          3:4    Portraits of the three named surgeons     REQUIRED        Legal
+  ---------------------------------------------------------------------------
+  A consent form permitting use in Vietnam does NOT automatically permit use in
+  Australia or the EU. Check the scope of each consent, not just that it exists.
+
+  SELF-SCORE (kn-khung-landing-qt.md §9) — score this draft before delivery.
+  The DISTANCE barrier is worth 15 points on its own: a page that does not state
+  the minimum stay and who handles aftercare cannot reach 80, and should not.
+  ============================================================================
+-->
+</body>
+</html>
