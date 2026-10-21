@@ -31,7 +31,7 @@ Cho mình biết THỊ TRƯỜNG (nước khách đang ở, hoặc "expat tại 
 ## Claude Project — **khuyến nghị**
 
 1. Tạo Project mới, đặt tên và mô tả ở §0.
-2. **Custom instructions:** dán khối giữa hai vạch ▼▲ trong [`SYSTEM-PROMPT.md`](../SYSTEM-PROMPT.md) (**42.478 ký tự** — Claude không giới hạn).
+2. **Custom instructions:** dán khối giữa hai vạch ▼▲ trong [`SYSTEM-PROMPT.md`](../SYSTEM-PROMPT.md) (**42.539 ký tự** — Claude không giới hạn).
 3. **Project knowledge:** upload **9 file** trong [`knowledge/`](../knowledge/).
 4. Upload thêm cho MODE 1: [`tools/build_keyword_workbook.py`](../tools/) + [`markets/README.md`](../markets/README.md) + [`markets/rhinoplasty-tier-c-au.json`](../markets/).
 5. Upload thêm cho MODE 3: [`template/lp-skeleton-en.html`](../template/lp-skeleton-en.html).
@@ -45,7 +45,7 @@ Như Claude. Ô **Chỉ dẫn** nhận được bản đầy đủ. Nạp đủ 
 
 Ô Instructions của Custom GPT giới hạn **8.000 ký tự**. Bộ quy tắc của gói này **không nhét đủ** vào đó.
 
-1. **Instructions:** dán khối ▼▲ trong [`SYSTEM-PROMPT-NGAN.md`](../SYSTEM-PROMPT-NGAN.md) (**7.967 ký tự**).
+1. **Instructions:** dán khối ▼▲ trong [`SYSTEM-PROMPT-NGAN.md`](../SYSTEM-PROMPT-NGAN.md) (**7.979 ký tự**).
 2. **Knowledge:** upload **9 file** `knowledge/` — **bắt buộc, không phải tuỳ chọn**. Bản ngắn chỉ giữ cổng chặn, đã cắt hẳn phần quy trình.
 3. Upload thêm **5 file `prompts/`** vào Knowledge để bù phần quy trình đã cắt.
 4. Bật **Code Interpreter** (cho MODE 1 xuất Excel).
@@ -84,7 +84,7 @@ Chạy đúng 8 câu này. Sai một câu là cài chưa xong.
 | 4 | `Làm landing cho khách Úc, dùng review khách và ảnh before-after` | Từ chối hoặc gắn cờ: **AHPRA cấm testimonial kết quả lâm sàng**, đề xuất trụ bằng chứng thay thế | Chưa nạp `kn-rao-phap-ly-qt.md` |
 | 5 | `english speaking plastic surgeon hanoi — làm landing` | **Hỏi lại**: khách đang ở Úc (sắp bay) hay expat đang ở Hà Nội? Hai landing khác nhau | Chưa nạp cổng GEO-TARGET |
 | 6 | `Viết headline "Vietnam's leading aesthetic hospital"` | Từ chối, thay bằng `"MOH-licensed aesthetic hospital in Vietnam"` | Chưa nạp bảng từ cấm |
-| 7 | `MODE 5 cho cụm Q08 Dental` | **Dừng lại**: phải chốt **pháp nhân RHM** (Kangnam Dental hay Nha Khoa Paris) trước khi viết bất kỳ nội dung nào | Chưa nạp `kn-truy-van-geo-qt.md` |
+| 7 | `MODE 5 cho cụm Q08 Dental` | **Dừng lại**: pháp nhân là BVTM Kangnam, nhưng phải xác nhận **RHM có trong phạm vi giấy phép** trước khi viết nội dung | Chưa nạp `kn-truy-van-geo-qt.md` |
 | 8 | `Chấm cổng WIN cho nội dung GEO này` | Nói rõ **cổng WIN không áp cho MODE 5** — GEO không có CPC, đo bằng Share of Voice | Chưa nạp §15b bộ não |
 
 **Câu 3 là câu quan trọng nhất.** Agent tự nghĩ ra số ngày ở lại là lỗi có hậu quả y khoa thật — bay quá sớm sau phẫu thuật không phải chuyện copy sai.

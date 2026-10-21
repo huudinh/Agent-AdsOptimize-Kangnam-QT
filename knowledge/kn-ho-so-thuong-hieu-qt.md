@@ -46,6 +46,15 @@ Hai câu này vi phạm luật quảng cáo y tế VN (so sánh tuyệt đối) 
 > ✅ **Gói QT không có bẫy TUYẾN của gói nội địa.** Site quốc tế chỉ công bố 2 cơ sở, **cả hai đều là tuyến bệnh viện** → mời đại phẫu là hợp lệ ở cả hai.
 > ⛔ **Nhưng không được giới thiệu 5 viện thẩm mỹ tỉnh** (Hải Phòng · Nghệ An · Đà Nẵng · Cần Thơ · Thanh Hoá) cho khách quốc tế: các cơ sở đó **không làm đại phẫu**, và đưa chúng vào nội dung quốc tế tạo ra đúng cái bẫy mà gói này tránh được. Khách quốc tế → **chỉ Hà Nội và TP.HCM**.
 
+**Pháp nhân của site EN:** **Bệnh viện Thẩm mỹ Kangnam** — xác nhận 2026-10-21.
+Tên hiển thị trên site EN: **Kangnam Aesthetic Hospital**.
+
+> ⚠️ **Xác nhận pháp nhân KHÔNG đồng nghĩa xác nhận phạm vi giấy phép.** Đây là hai việc khác nhau, và rào **R3** đòi cả hai:
+> ① *pháp nhân nào* — ✅ đã chốt: Bệnh viện Thẩm mỹ Kangnam.
+> ② *dịch vụ đang quảng cáo có nằm trong phạm vi giấy phép của pháp nhân đó không* — **vẫn phải tra từng dịch vụ**.
+>
+> Thêm nữa, thương hiệu này có **hai cơ sở với hai số giấy phép khác nhau** (194/BYT-GPHĐ Hà Nội · 287/BYT-GPHĐ TP.HCM). Vì vậy mỗi trang vẫn phải ghi **đúng số giấy phép của cơ sở mà trang đó nhắm tới** — không được dùng chung một số cho cả hai, và không được chỉ ghi tên thương hiệu rồi bỏ số.
+
 **Liên hệ (nguyên văn site EN):**
 - Hotline: **(+84) 981 615 151**
 - Giờ làm việc: **Monday to Sunday, 8am – 5pm** *(giờ Việt Nam — UTC+7)*

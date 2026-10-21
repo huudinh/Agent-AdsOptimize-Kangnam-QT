@@ -56,7 +56,7 @@ Hai bộ được làm **độc lập** mà trùng kết luận — tín hiệu 
 > Một chiến dịch chạy tốt, landing chấm 90 điểm, mẫu quảng cáo 14/14 — nhưng cơ sở **chưa đủ điều kiện R8** thì **lead đổ về là rủi ro, không phải thành tích.**
 
 **Hai dịch vụ bị chặn tới khi chốt được điều kiện:**
-- **Q08 Dental** — chốt **pháp nhân RHM** (Kangnam Dental hay Nha Khoa Paris) trước khi xuất bản bất kỳ nội dung nào *(R3)*.
+- **Q08 Dental** — pháp nhân đã chốt (**BVTM Kangnam**, 2026-10-21); còn thiếu **RHM có trong phạm vi giấy phép không** trước khi xuất bản nội dung *(R3)*.
 - **Q09 BBL** — chỉ làm nếu kỹ thuật **thuộc DMKT**, và nội dung phải **nói thật rủi ro thuyên tắc mỡ** *(R2)*. Thủ thuật rủi ro cao nhất ngành.
 
 ### Thứ tự quyết định của khách quốc tế — và hệ quả
@@ -82,8 +82,8 @@ Bộ GEO dùng **6 giai đoạn** (G-S1…G-S6); bộ não dùng **7 chặng** (
 ### Thay đổi file
 
 ```
-SYSTEM-PROMPT.md       36.128 → 42.478 ký tự   (+ §15b MODE 5, + 6 rule, + phân biệt GEO)
-SYSTEM-PROMPT-NGAN.md   7.961 →  7.967 ký tự   (vẫn dưới 8.000 — xem đánh đổi dưới)
+SYSTEM-PROMPT.md       36.128 → 42.539 ký tự   (+ §15b MODE 5, + 6 rule, + phân biệt GEO)
+SYSTEM-PROMPT-NGAN.md   7.961 →  7.979 ký tự   (vẫn dưới 8.000 — xem đánh đổi dưới)
 knowledge/              8 → 9 file             (+ kn-truy-van-geo-qt.md, 80 KB)
 prompts/                4 → 5 file             (+ prompt-geo-answer.md)
 kn-rao-phap-ly-qt.md    + §4b (R2·R3·R7·R8) + 4 dòng "cần xác nhận"
@@ -99,7 +99,8 @@ Ngoài 15 mục của v1.0:
 |---|---|---|---|
 | 16 | 🔴 **R8 — cơ sở + bác sĩ đủ điều kiện KCB cho người nước ngoài**, phiên dịch chuyên môn, hồ sơ song ngữ | Pháp chế + Điều phối QT | 🔴 Chặn mọi chiến dịch quốc tế |
 | 17 | **R2 — DMKT từng cơ sở**: deep plane · BBL · abs etching có trong danh mục không | Pháp chế | 🔴 Chặn Q03 · Q09 |
-| 18 | **R3 — pháp nhân site EN**, và **nha khoa: Kangnam Dental hay Nha Khoa Paris** | Pháp chế | 🔴 Chặn Q08 |
+| 18 | ~~R3 — pháp nhân site EN~~ → ✅ **chốt 2026-10-21: Bệnh viện Thẩm mỹ Kangnam** | — | ✅ xong |
+| 18b | **R3 — phạm vi giấy phép**: RHM (nha khoa) có thuộc phạm vi của BVTM Kangnam không | Pháp chế | 🔴 Chặn Q08 |
 | 19 | **R7 — số lưu hành** túi ngực · thiết bị · filler thực dùng | BS + Pháp chế | 🟠 Chạm 9 truy vấn |
 
 > Mục 1 của v1.0 (**bảng số ngày ở lại**) giờ chặn **hai** thứ: khối B08 của landing **và** trang `/medical-tourism-guide` của Q13. Đòn bẩy của nó cao hơn trước.
@@ -117,8 +118,8 @@ Gói mới, tách khỏi [`Agent-AdsOptimize-Kangnam`](../../Agent-AdsOptimize-K
 ### Cấu trúc
 
 ```
-SYSTEM-PROMPT.md          36.128 ký tự  (Claude / Gemini)   → v1.1: 42.478
-SYSTEM-PROMPT-NGAN.md      7.961 ký tự  (ChatGPT)            → v1.1:  7.967
+SYSTEM-PROMPT.md          36.128 ký tự  (Claude / Gemini)   → v1.1: 42.539
+SYSTEM-PROMPT-NGAN.md      7.961 ký tự  (ChatGPT)            → v1.1:  7.979
 knowledge/   8 file                                          → v1.1: 9 file
 prompts/     4 file                                          → v1.1: 5 file
 markets/     schema + 1 ví dụ đã build được

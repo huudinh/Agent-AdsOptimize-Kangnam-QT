@@ -338,8 +338,8 @@ Bộ câu lệnh đầy đủ: [`doc/02-cau-lenh.md`](doc/02-cau-lenh.md)
 
 | File | Nội dung | Trạng thái |
 |---|---|---|
-| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 20 mục · **42.478 ký tự** | ✅ |
-| [SYSTEM-PROMPT-NGAN.md](SYSTEM-PROMPT-NGAN.md) | Bản cổng chặn **7.967 ký tự** — chỉ cho **ChatGPT**. ⚠️ Đã cắt phần quy trình, **bắt buộc nạp Knowledge** | ✅ |
+| [SYSTEM-PROMPT.md](SYSTEM-PROMPT.md) | Bộ não — 20 mục · **42.539 ký tự** | ✅ |
+| [SYSTEM-PROMPT-NGAN.md](SYSTEM-PROMPT-NGAN.md) | Bản cổng chặn **7.979 ký tự** — chỉ cho **ChatGPT**. ⚠️ Đã cắt phần quy trình, **bắt buộc nạp Knowledge** | ✅ |
 | [knowledge/kn-rao-phap-ly-qt.md](knowledge/kn-rao-phap-ly-qt.md) | **Cổng pháp lý hai tầng** · từ cấm tiếng Anh · luật ảnh theo market · GDPR | ✅ |
 | [knowledge/kn-thi-truong-quoc-te.md](knowledge/kn-thi-truong-quoc-te.md) | ★ **File lõi** — 4 tầng · cổng GEO-TARGET · bản đồ thị trường × dịch vụ · mùa bay · giá · **số ngày ở lại** | ✅ |
 | [knowledge/kn-chan-dung-hanh-trinh-qt.md](knowledge/kn-chan-dung-hanh-trinh-qt.md) | ★ **4 rào cản (có XA)** · 7 chân dung · **phễu 7 chặng** | ✅ |

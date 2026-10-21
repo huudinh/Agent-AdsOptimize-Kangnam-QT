@@ -307,7 +307,7 @@ Người dùng không gọi mode → tự suy (**có market + dịch vụ, chưa
 **② Dùng PAS, không dùng AIDA.** Người đọc chưa chủ động tìm Kangnam — họ hỏi AI một câu chung.
 **③ Trả lời đúng câu như khách gõ.** Cột *"truy vấn khách gõ vào AI"* là **nguyên văn** — đặt làm `H2`/`H3` rồi trả lời ngay trong 2–3 câu đầu. ⛔ Không nhồi từ khoá.
 
-**Hai dịch vụ bị chặn tới khi chốt được điều kiện:** **Q08 Dental** — chốt **pháp nhân RHM** (Kangnam Dental hay Nha Khoa Paris) · **Q09 BBL** — chỉ làm nếu kỹ thuật **thuộc DMKT**, và nội dung phải **nói thật rủi ro thuyên tắc mỡ**. ⛔ Chưa chốt → không viết nội dung, không chạy từ khoá.
+**Hai dịch vụ bị chặn tới khi chốt được điều kiện:** **Q08 Dental** — pháp nhân đã chốt là **Bệnh viện Thẩm mỹ Kangnam**, còn thiếu **RHM có trong phạm vi giấy phép của pháp nhân đó không** · **Q09 BBL** — chỉ làm nếu kỹ thuật **thuộc DMKT**, và nội dung phải **nói thật rủi ro thuyên tắc mỡ**. ⛔ Chưa chốt → không viết nội dung, không chạy từ khoá.
 
 **Bốn trang Tầng A phải có trước mọi trang dịch vụ:** `/aesthetic-hospital-vietnam` (pillar thực thể) · `/safety-accreditation` · `/pricing` (bảng giá **USD min–max** công khai) · `/medical-tourism-guide`.
 ⚠️ Trang `/medical-tourism-guide` cần **số ngày ở lại** — vẫn `[CHỜ CẬP NHẬT]` (§8). **Không viết bằng số tự suy.** Cùng một nút thắt đã chặn khối B08 của landing.

@@ -115,6 +115,9 @@ Bảng R0–R9 đầy đủ: [`kn-truy-van-geo-qt.md`](kn-truy-van-geo-qt.md) §
 |---|---|---|---|---|
 | **R2** | **Danh mục kỹ thuật (DMKT)** | Quảng cáo kỹ thuật **ngoài danh mục đã phê duyệt** của cơ sở — cụ thể **deep plane · BBL · abs etching** | Chỉ nêu kỹ thuật **thuộc DMKT đã phê duyệt** | Pháp chế |
 | **R3** | **Đúng pháp nhân** — ĐIỂM NÓNG | Site EN **gộp nhiều cơ sở/pháp nhân**; dùng tên "Kangnam" cho dịch vụ mà cơ sở đó **không có phạm vi** | Site EN trỏ **đúng bệnh viện có giấy phép + phạm vi**; NAP từng cơ sở | Pháp chế |
+
+> ✅ **Nửa đầu của R3 đã chốt (2026-10-21):** pháp nhân của site EN là **Bệnh viện Thẩm mỹ Kangnam**.
+> ⚠️ **Nửa sau vẫn mở:** pháp nhân đã rõ **không** có nghĩa là mọi dịch vụ đều nằm trong phạm vi giấy phép của pháp nhân đó. Trước khi viết nội dung cho một dịch vụ, vẫn phải tra: *dịch vụ này có trong phạm vi giấy phép của cơ sở đang nhắm tới không?* Và vì hai cơ sở có **hai số giấy phép khác nhau**, mỗi trang phải ghi **đúng số của cơ sở đó**.
 | **R7** | **Túi ngực · thiết bị · filler** | Nêu hãng **không dùng thật**; máy/filler **không rõ số lưu hành** | Chỉ hãng **thực dùng, có số lưu hành** + chứng nhận; khách được xem thẻ | BS + Pháp chế |
 | **R8** | **KCB cho người nước ngoài** — **NÓNG NHẤT** | Tiếp nhận khách nước ngoài khi **cơ sở/bác sĩ chưa đủ điều kiện**, hoặc **không có phiên dịch chuyên môn** | Đủ điều kiện pháp lý + phiên dịch + **hồ sơ song ngữ** + kênh theo dõi từ xa | Pháp chế + Điều phối QT |
 
@@ -130,7 +133,7 @@ R2 · R3 · R7 nói về **câu chữ**. **R8 nói về việc có được ti�
 
 | Dịch vụ | Phải chốt gì | Vì sao |
 |---|---|---|
-| **Nha khoa** *(Q08 — dental tourism)* | **Pháp nhân RHM**: Kangnam Dental hay Nha Khoa Paris | R3. Dental tourism có nhu cầu lớn nhưng sai pháp nhân là sai phạm vi giấy phép |
+| **Nha khoa** *(Q08 — dental tourism)* | **Răng hàm mặt (RHM) có nằm trong phạm vi giấy phép của Bệnh viện Thẩm mỹ Kangnam không?** Có → viết dưới pháp nhân này. Không → nha khoa thuộc pháp nhân khác và **không được dùng tên Kangnam trên site EN** cho nhóm này | R3. Pháp nhân đã chốt, nhưng **phạm vi giấy phép cho RHM thì chưa** — đây mới là thứ quyết định Q08 có làm được hay không |
 | **BBL** *(Q09 — Brazilian butt lift)* | ① kỹ thuật **có trong DMKT** của cơ sở không · ② nội dung **nói thật rủi ro thuyên tắc mỡ** | R2. Đây là thủ thuật **rủi ro cao nhất ngành**. Chỉ định phải chặt |
 
 ⛔ Chưa chốt → **không viết nội dung, không chạy từ khoá** cho hai nhóm này.
@@ -176,7 +179,8 @@ Mọi mẫu quảng cáo · landing · bảng giá · nội dung có phát ngôn
 | 11 | **Gỡ 3 lỗi trên trang tham chiếu**: tên *"Dr. Granzow"* · *"Trusted by 0+ clients"* · *"results are permanent"* | `[CHỜ CẬP NHẬT]` |
 | 12 | 🔴 **R8 — cơ sở + bác sĩ đủ điều kiện KCB cho người nước ngoài**, có phiên dịch chuyên môn và hồ sơ song ngữ | `[CHỜ CẬP NHẬT]` |
 | 13 | **R2 — danh mục kỹ thuật (DMKT)** đã phê duyệt của từng cơ sở: deep plane · BBL · abs etching có trong danh mục không | `[CHỜ CẬP NHẬT]` |
-| 14 | **R3 — pháp nhân cho site EN**, và riêng **nha khoa: Kangnam Dental hay Nha Khoa Paris** | `[CHỜ CẬP NHẬT]` |
+| 14 | ~~R3 — pháp nhân cho site EN~~ | ✅ **ĐÃ CHỐT 2026-10-21: Bệnh viện Thẩm mỹ Kangnam** |
+| 14b | **R3 — phạm vi giấy phép**: từng dịch vụ có nằm trong phạm vi của cơ sở đang nhắm không, và riêng **RHM (nha khoa)** có thuộc phạm vi của BVTM Kangnam không | `[CHỜ CẬP NHẬT]` |
 | 15 | **R7 — số lưu hành** của túi ngực · thiết bị · filler thực dùng | `[CHỜ CẬP NHẬT]` |
 
 Dòng 11 là lỗi đang hiển thị trên bản live — xem `kn-ho-so-thuong-hieu-qt.md` §4.4.
