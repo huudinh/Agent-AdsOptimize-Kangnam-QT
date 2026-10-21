@@ -116,8 +116,11 @@ Bảng R0–R9 đầy đủ: [`kn-truy-van-geo-qt.md`](kn-truy-van-geo-qt.md) §
 | **R2** | **Danh mục kỹ thuật (DMKT)** | Quảng cáo kỹ thuật **ngoài danh mục đã phê duyệt** của cơ sở — cụ thể **deep plane · BBL · abs etching** | Chỉ nêu kỹ thuật **thuộc DMKT đã phê duyệt** | Pháp chế |
 | **R3** | **Đúng pháp nhân** — ĐIỂM NÓNG | Site EN **gộp nhiều cơ sở/pháp nhân**; dùng tên "Kangnam" cho dịch vụ mà cơ sở đó **không có phạm vi** | Site EN trỏ **đúng bệnh viện có giấy phép + phạm vi**; NAP từng cơ sở | Pháp chế |
 
-> ✅ **Nửa đầu của R3 đã chốt (2026-10-21):** pháp nhân của site EN là **Bệnh viện Thẩm mỹ Kangnam**.
-> ⚠️ **Nửa sau vẫn mở:** pháp nhân đã rõ **không** có nghĩa là mọi dịch vụ đều nằm trong phạm vi giấy phép của pháp nhân đó. Trước khi viết nội dung cho một dịch vụ, vẫn phải tra: *dịch vụ này có trong phạm vi giấy phép của cơ sở đang nhắm tới không?* Và vì hai cơ sở có **hai số giấy phép khác nhau**, mỗi trang phải ghi **đúng số của cơ sở đó**.
+> ✅ **Chốt 2026-10-21 — pháp nhân:** **Công ty TNHH Bệnh viện Thẩm mỹ Kangnam Sài Gòn**, MST 0312155633, giấy phép KCB **287/BYT-GPHĐ** (03/12/2020).
+> ✅ **Chốt 2026-10-21 — nha khoa:** Kangnam **có chuyên khoa Nha khoa thẩm mỹ** vận hành dưới chính pháp nhân này (4 dịch vụ: niềng răng · bọc sứ · Implant · Veneer). Nguồn: trang chuyên khoa trên site nội địa. → **Cụm Q08 không còn bị chặn vì câu hỏi pháp nhân.**
+> ⚠️ **Hai điều vẫn phải giữ:**
+> ① **Bằng chứng trên chỉ thuộc cơ sở TP.HCM (287).** Chưa có bằng chứng cho **Hà Nội (194)** → nội dung nha khoa cho khách quốc tế **mặc định trỏ về TP.HCM**, trừ khi Pháp chế xác nhận 194 cũng có RHM trong phạm vi.
+> ② **Trang web không phải văn bản phạm vi giấy phép.** Chỉ **phụ lục phạm vi hoạt động chuyên môn** của giấy phép mới chứng minh được một kỹ thuật nằm trong phạm vi. Trước khi phát hành, Pháp chế vẫn rà phụ lục đó cùng lúc với **GXNNDQC (R9)** — đây là bước có sẵn trong quy trình, không phải việc phát sinh.
 | **R7** | **Túi ngực · thiết bị · filler** | Nêu hãng **không dùng thật**; máy/filler **không rõ số lưu hành** | Chỉ hãng **thực dùng, có số lưu hành** + chứng nhận; khách được xem thẻ | BS + Pháp chế |
 | **R8** | **KCB cho người nước ngoài** — **NÓNG NHẤT** | Tiếp nhận khách nước ngoài khi **cơ sở/bác sĩ chưa đủ điều kiện**, hoặc **không có phiên dịch chuyên môn** | Đủ điều kiện pháp lý + phiên dịch + **hồ sơ song ngữ** + kênh theo dõi từ xa | Pháp chế + Điều phối QT |
 
@@ -133,7 +136,7 @@ R2 · R3 · R7 nói về **câu chữ**. **R8 nói về việc có được ti�
 
 | Dịch vụ | Phải chốt gì | Vì sao |
 |---|---|---|
-| **Nha khoa** *(Q08 — dental tourism)* | **Răng hàm mặt (RHM) có nằm trong phạm vi giấy phép của Bệnh viện Thẩm mỹ Kangnam không?** Có → viết dưới pháp nhân này. Không → nha khoa thuộc pháp nhân khác và **không được dùng tên Kangnam trên site EN** cho nhóm này | R3. Pháp nhân đã chốt, nhưng **phạm vi giấy phép cho RHM thì chưa** — đây mới là thứ quyết định Q08 có làm được hay không |
+| ~~**Nha khoa** *(Q08)*~~ ✅ | **Đã gỡ chặn 2026-10-21** — nha khoa vận hành dưới chính pháp nhân BVTM Kangnam Sài Gòn (287/BYT-GPHĐ). Điều kiện còn lại khi viết: **trỏ về cơ sở TP.HCM**, và ghi đúng số **287** | R3 phần pháp nhân đã xong. Nếu muốn nội dung nha khoa cho **Hà Nội** thì phải xác nhận 194 trước |
 | **BBL** *(Q09 — Brazilian butt lift)* | ① kỹ thuật **có trong DMKT** của cơ sở không · ② nội dung **nói thật rủi ro thuyên tắc mỡ** | R2. Đây là thủ thuật **rủi ro cao nhất ngành**. Chỉ định phải chặt |
 
 ⛔ Chưa chốt → **không viết nội dung, không chạy từ khoá** cho hai nhóm này.
@@ -180,7 +183,9 @@ Mọi mẫu quảng cáo · landing · bảng giá · nội dung có phát ngôn
 | 12 | 🔴 **R8 — cơ sở + bác sĩ đủ điều kiện KCB cho người nước ngoài**, có phiên dịch chuyên môn và hồ sơ song ngữ | `[CHỜ CẬP NHẬT]` |
 | 13 | **R2 — danh mục kỹ thuật (DMKT)** đã phê duyệt của từng cơ sở: deep plane · BBL · abs etching có trong danh mục không | `[CHỜ CẬP NHẬT]` |
 | 14 | ~~R3 — pháp nhân cho site EN~~ | ✅ **ĐÃ CHỐT 2026-10-21: Bệnh viện Thẩm mỹ Kangnam** |
-| 14b | **R3 — phạm vi giấy phép**: từng dịch vụ có nằm trong phạm vi của cơ sở đang nhắm không, và riêng **RHM (nha khoa)** có thuộc phạm vi của BVTM Kangnam không | `[CHỜ CẬP NHẬT]` |
+| 14b | ~~R3 — nha khoa có thuộc pháp nhân BVTM Kangnam không~~ | ✅ **ĐÃ CHỐT 2026-10-21: có, chuyên khoa Nha khoa thẩm mỹ, giấy phép 287** |
+| 14c | **R3 — cơ sở Hà Nội (194/BYT-GPHĐ)** có RHM trong phạm vi không *(chỉ cần nếu muốn làm nội dung nha khoa cho Hà Nội)* | `[CHỜ CẬP NHẬT]` |
+| 14d | **Phụ lục phạm vi hoạt động chuyên môn** của 287 và 194 — rà cùng lúc với GXNNDQC trước khi phát hành | `[CHỜ CẬP NHẬT]` |
 | 15 | **R7 — số lưu hành** của túi ngực · thiết bị · filler thực dùng | `[CHỜ CẬP NHẬT]` |
 
 Dòng 11 là lỗi đang hiển thị trên bản live — xem `kn-ho-so-thuong-hieu-qt.md` §4.4.

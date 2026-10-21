@@ -46,14 +46,15 @@ Hai câu này vi phạm luật quảng cáo y tế VN (so sánh tuyệt đối) 
 > ✅ **Gói QT không có bẫy TUYẾN của gói nội địa.** Site quốc tế chỉ công bố 2 cơ sở, **cả hai đều là tuyến bệnh viện** → mời đại phẫu là hợp lệ ở cả hai.
 > ⛔ **Nhưng không được giới thiệu 5 viện thẩm mỹ tỉnh** (Hải Phòng · Nghệ An · Đà Nẵng · Cần Thơ · Thanh Hoá) cho khách quốc tế: các cơ sở đó **không làm đại phẫu**, và đưa chúng vào nội dung quốc tế tạo ra đúng cái bẫy mà gói này tránh được. Khách quốc tế → **chỉ Hà Nội và TP.HCM**.
 
-**Pháp nhân của site EN:** **Bệnh viện Thẩm mỹ Kangnam** — xác nhận 2026-10-21.
-Tên hiển thị trên site EN: **Kangnam Aesthetic Hospital**.
+**Pháp nhân của site EN:** **Công ty TNHH Bệnh viện Thẩm mỹ Kangnam Sài Gòn** — MST **0312155633**.
+Giấy phép hoạt động KCB **287/BYT-GPHĐ**, Bộ Y tế cấp **03/12/2020**.
+Tên hiển thị trên site EN: **Kangnam Aesthetic Hospital**. *(Xác nhận 2026-10-21, đối chiếu footer site nội địa.)*
 
-> ⚠️ **Xác nhận pháp nhân KHÔNG đồng nghĩa xác nhận phạm vi giấy phép.** Đây là hai việc khác nhau, và rào **R3** đòi cả hai:
-> ① *pháp nhân nào* — ✅ đã chốt: Bệnh viện Thẩm mỹ Kangnam.
-> ② *dịch vụ đang quảng cáo có nằm trong phạm vi giấy phép của pháp nhân đó không* — **vẫn phải tra từng dịch vụ**.
+> ⚠️ **Một trang dịch vụ trên site KHÔNG phải là văn bản phạm vi giấy phép.** Rào **R3** đòi hai thứ, và chúng được xác minh bằng hai loại bằng chứng khác nhau:
+> ① *pháp nhân nào* — ✅ chốt bằng footer site: Công ty TNHH BVTM Kangnam Sài Gòn.
+> ② *dịch vụ có trong phạm vi hoạt động chuyên môn của giấy phép đó không* — chỉ **phụ lục phạm vi của giấy phép** mới trả lời được, không phải trang web.
 >
-> Thêm nữa, thương hiệu này có **hai cơ sở với hai số giấy phép khác nhau** (194/BYT-GPHĐ Hà Nội · 287/BYT-GPHĐ TP.HCM). Vì vậy mỗi trang vẫn phải ghi **đúng số giấy phép của cơ sở mà trang đó nhắm tới** — không được dùng chung một số cho cả hai, và không được chỉ ghi tên thương hiệu rồi bỏ số.
+> ⚠️ **Hai cơ sở, hai số giấy phép khác nhau** (194/BYT-GPHĐ Hà Nội · 287/BYT-GPHĐ TP.HCM). Mọi bằng chứng tra được từ footer site nội địa đều thuộc **287 — TP.HCM**. Vì vậy mỗi trang phải ghi **đúng số giấy phép của cơ sở mà trang đó nhắm tới**; ⛔ không dùng chung một số cho cả hai, không chỉ ghi tên thương hiệu rồi bỏ số.
 
 **Liên hệ (nguyên văn site EN):**
 - Hotline: **(+84) 981 615 151**
@@ -77,8 +78,13 @@ Tên dùng khi viết nội dung hiển thị là **tên quốc tế**, không d
 | **Body Aesthetic** | Breast augmentation · Breast lift · Liposuction / Lipo 360 · Tummy tuck |
 | **ICEFUE Hair Transplant** | Hair transplant |
 | **Reconstructive Aesthetic** | Facial paralysis treatment · reconstructive surgery |
-| **Dentistry (KDT)** | Braces · Porcelain crowns · Dental implants · Veneers |
+| **Dentistry (KDT)** ✅ | Braces · Porcelain crowns · Dental implants · Veneers — **có trong hệ dịch vụ của pháp nhân**, xem ghi chú dưới bảng |
 | **Skin & Clinic** | Pigmentation · acne · scar · laser · spa *(⚠️ chỉ bán cho tầng D — xem `kn-thi-truong-quoc-te.md` §3)* |
+
+> ✅ **Nha khoa (2026-10-21):** Kangnam **có chuyên khoa Nha khoa thẩm mỹ**, vận hành dưới chính pháp nhân Công ty TNHH BVTM Kangnam Sài Gòn (giấy phép **287/BYT-GPHĐ**), với 4 dịch vụ: niềng răng · bọc răng sứ · cấy ghép Implant · dán mặt sứ Veneer.
+> Nguồn: `benhvienthammykangnam.com.vn/chuyen-khoa/chuyen-khoa-nha-khoa-tham-my/`
+> ⚠️ Bằng chứng này thuộc **cơ sở TP.HCM (287)**. **Chưa có bằng chứng cho cơ sở Hà Nội (194)** → landing nha khoa cho khách quốc tế **mặc định trỏ về TP.HCM**, trừ khi Pháp chế xác nhận 194 cũng có RHM trong phạm vi.
+> ⚠️ *"Kangnam Dental"* xuất hiện như một nhánh trong hệ sinh thái, nhưng nha khoa **vận hành dưới pháp nhân chính**, không phải một pháp nhân riêng.
 
 **Dịch vụ giá trị lớn** (ưu tiên khi chấm tiêu chí ③ của cổng WIN): breast augmentation · rib-cartilage rhinoplasty · V-line · facelift · Lipo 360 · hair transplant.
 

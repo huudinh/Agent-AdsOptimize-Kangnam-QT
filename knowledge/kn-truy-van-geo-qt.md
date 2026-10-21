@@ -1073,7 +1073,7 @@ Content EN soạn → tự kiểm checklist → BS thẩm định chuyên môn
 → Pháp chế duyệt nội dung & hình ảnh (KỂ CẢ BẢN EN)
 → GXNNDQC nếu là QC dịch vụ → mới đăng
 ```
-Riêng **nha khoa (Q08)**: chốt **phạm vi giấy phép cho RHM** — pháp nhân đã chốt là **Bệnh viện Thẩm mỹ Kangnam** (2026-10-21); còn thiếu: **RHM có nằm trong phạm vi giấy phép của pháp nhân đó không** — **trước khi xuất bản bất kỳ nội dung nào**.
+Riêng **nha khoa (Q08)**: ✅ **đã gỡ chặn 2026-10-21** — Kangnam có chuyên khoa Nha khoa thẩm mỹ dưới chính pháp nhân BVTM Kangnam Sài Gòn (**287/BYT-GPHĐ**). Khi viết: **trỏ về cơ sở TP.HCM** và ghi đúng số 287; muốn làm cho **Hà Nội (194)** thì phải xác nhận riêng.
 
 ### 🔴 Bốn rào mà `kn-rao-phap-ly-qt.md` v1.0 CHƯA CÓ — đã bổ sung
 

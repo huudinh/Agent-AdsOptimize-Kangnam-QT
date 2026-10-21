@@ -1,10 +1,10 @@
 # 📋 SYSTEM PROMPT BẢN NGẮN — ADS OPTIMIZE KANGNAM QUỐC TẾ
 
-> **Chỉ dùng cho ChatGPT Custom GPT** (ô Instructions giới hạn **8.000 ký tự**). Claude Project và Gemini Gems dùng [`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md) — bản đầy đủ **42.539 ký tự**.
+> **Chỉ dùng cho ChatGPT Custom GPT** (ô Instructions giới hạn **8.000 ký tự**). Claude Project và Gemini Gems dùng [`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md) — bản đầy đủ **42.620 ký tự**.
 
 ## ⚠️ Bản này là bản đánh đổi — đọc trước khi cài
 
-Bộ quy tắc của gói quốc tế **không nhét đủ vào 8.000 ký tự**. Gói nội địa vừa khít (7.973) vì nó có 3 rào cản · 6 chặng · một hệ pháp lý. Gói này có **4 rào cản · 7 chặng · 4 tầng · hai hệ pháp lý · cổng GEO-TARGET · 83 truy vấn GEO**.
+Bộ quy tắc của gói quốc tế **không nhét đủ vào 8.000 ký tự**. Gói nội địa vừa khít (7.979) vì nó có 3 rào cản · 6 chặng · một hệ pháp lý. Gói này có **4 rào cản · 7 chặng · 4 tầng · hai hệ pháp lý · cổng GEO-TARGET · 83 truy vấn GEO**.
 
 Vì vậy bản ngắn **chỉ giữ cổng chặn và định tuyến**, và **đã cắt hẳn** những phần dưới đây:
 
