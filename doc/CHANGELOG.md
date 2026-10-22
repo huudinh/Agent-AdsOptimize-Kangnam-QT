@@ -1,5 +1,22 @@
 # CHANGELOG — ADS OPTIMIZE KANGNAM QUỐC TẾ
 
+## Bản gộp dự phòng cho file tri thức — 22/10/2026
+
+Thêm 2 file gộp trong `goi/` và `tools/gop-tham-khao.py` để sinh lại:
+
+- `goi/GOP-prompt.md` — gộp **5 file** `prompts/` (36 KB)
+- `goi/GOP-tri-thuc.md` — gộp **10 file** `knowledge/` (233 KB)
+
+**Vì sao cần:** Gemini Gems chặn ở **10 file** tri thức, và upload hàng chục file một lượt rất hay lỗi. Gặp trần thì trước giờ không có đường nào ngoài bỏ bớt file — mà bỏ bớt file tri thức là bỏ bớt luật, và luật bị bỏ thường là luật pháp lý vì nó nằm ở file người ta tưởng không quan trọng.
+
+**Không mất nội dung nào.** Mỗi phần trong bản gộp mở đầu bằng dòng `===== tên file =====`, nên Agent vẫn đọc đúng từng module và tham chiếu chéo `[[tên-file]]` vẫn trỏ đúng — chỉ đổi chỗ nằm, không đổi mã. Đã đối chiếu từng byte với bản rời.
+
+**Đánh đổi, đã ghi vào `doc/01-cai-dat.md`:** dùng bản gộp thì **mất khả năng thay riêng một module** — sửa một file là phải sinh lại và upload lại cả bản gộp. **Bản rời vẫn là đường chính**; bản gộp chỉ để chữa cháy khi chạm trần.
+
+⛔ Không sửa tay file trong `goi/`. Sửa ở thư mục nguồn rồi chạy `python tools/gop-tham-khao.py`.
+
+---
+
 ## v1.2 — 21/10/2026 · Vòng lặp tuần + công cụ báo cáo landing
 
 Trước v1.2, gói có **bốn MODE chạy rời nhau**: làm bộ từ khoá là một việc, dựng landing là việc

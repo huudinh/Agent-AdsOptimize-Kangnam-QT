@@ -360,6 +360,7 @@ Bộ câu lệnh đầy đủ: [`doc/02-cau-lenh.md`](doc/02-cau-lenh.md)
 | [tools/build_keyword_workbook.py](tools/) | Generator `.xlsx` 5 sheet · **cổng CAM · CLAIM · GEO · REGULATED** | ✅ |
 | [template/lp-skeleton-en.html](template/lp-skeleton-en.html) | **Landing page mẫu** — khung L3, Design System v1.0, form quốc tế, `§LEGAL` | ✅ |
 | [template/lp-reference-*.html / .css](template/) | Trang production đã lưu — nguồn của Design System | 📦 |
+| [goi/](goi/) | **Bản gộp dự phòng** — 2 file thay cho 15 file rời, dùng khi chạm trần số file của nền tảng | ✅ |
 | [doc/01-cai-dat.md](doc/01-cai-dat.md) | Cài 3 nền tảng · **6 câu smoke test** · test generator · xử lý sự cố | ✅ |
 | [doc/02-cau-lenh.md](doc/02-cau-lenh.md) | Câu lệnh 4 mode · prompt mẫu · **điều Agent sẽ từ chối** | ✅ |
 | [doc/CHANGELOG.md](doc/CHANGELOG.md) | Lịch sử · 7 khác biệt · **15 việc còn treo** | ✅ |
